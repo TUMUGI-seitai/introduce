@@ -38,8 +38,8 @@ p {
     margin-right: 8px;
 }
 .lum-lightbox-inner img {
-    max-width: 80vw;
-    max-height: 80vh;
+    max-width: 120vw;
+    max-height: 90vh;
 }
 
 /* ****** */
