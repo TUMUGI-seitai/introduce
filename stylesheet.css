@@ -186,6 +186,7 @@ header .my-picture {
 .anti-corona ul li {
     margin-bottom: 5px;
     text-indent: 0;
+    text-indent: -0.8rem;
 }
 .anti-corona ul li span {
     margin-left: 5%;
@@ -226,11 +227,16 @@ header .my-picture {
 }
 .paitient-comment .applicable li {
     margin-bottom: 10px;
-    text-indent: -1.2rem;
+    text-indent: -1.4rem;
     margin-left: 16px;
+    border-top: 1px solid grey;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
-
-
+.paitient-comment .applicable li:last-child {
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+}
 
 /* *** */
 /* 開発 */
