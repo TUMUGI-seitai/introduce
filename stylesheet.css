@@ -259,6 +259,9 @@ header .my-picture {
     font-weight: bold;
     font-size: 1.25rem;
 }
+.offer img {
+    width: 250px;
+}
 
 /* ***************** */
 /* self-introduction */
@@ -269,7 +272,7 @@ header .my-picture {
 }
 .self-introduction .content {
     padding: 0 30px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 .self-introduction h2 {
     margin-bottom: 30px;
