@@ -37,6 +37,10 @@ p {
     font-family: "Font Awesome 5 Pro";
     margin-right: 8px;
 }
+.lum-lightbox-inner img {
+    max-width: 80vw;
+    max-height: 80vh;
+}
 
 /* ****** */
 /* header */
@@ -215,7 +219,6 @@ header .my-picture {
         repeat(2, minmax(100px, auto));
    gap:5px;
    margin-bottom: 30px;
-
 }
 .paitient-comment p {
     font-size: 1.25rem;
