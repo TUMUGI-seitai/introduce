@@ -260,6 +260,38 @@ header .my-picture {
     font-size: 1.25rem;
 }
 
+/* ***************** */
+/* self-introduction */
+/* ***************** */
+
+.self-introduction {
+    margin-bottom: 120px;
+}
+.self-introduction .content {
+    padding: 0 30px;
+    border: 1px solid #000;
+}
+.self-introduction h2 {
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    padding-bottom: 3px;
+    font-size: 1.4rem;      
+}
+.self-introduction p {
+    line-height: 2;
+    margin-bottom: 30px;
+}
+.self-introduction .self-img {
+    width: 100%;
+}
+.self-introduction img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+
+}
+
 
 
 /* *** */
