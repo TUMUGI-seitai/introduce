@@ -219,11 +219,8 @@ header .my-picture {
     margin-bottom: 20px;
 }
 .paitient-comment .applicable {
-    /* list-style: inside; */
-    /* margin-left: 16px; */
-    margin-bottom: 30px;
+    margin-bottom: 120px;
     font-size: 1rem;
-    /* padding-left: 5px; */
 }
 .paitient-comment .applicable li {
     margin-bottom: 10px;
@@ -237,6 +234,33 @@ header .my-picture {
     border-bottom: 1px solid grey;
     padding-bottom: 20px;
 }
+
+/* ***** */
+/* offer */
+/* ***** */
+.offer {
+    margin-bottom: 120px;
+}
+.offer h2 {
+    margin-bottom: 30px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 1.4rem;    
+    text-align: center;
+}
+.offer p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.offer p span {
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+
 
 /* *** */
 /* 開発 */
