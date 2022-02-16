@@ -72,7 +72,7 @@ header .title-name span  {
 header .title-name h1 img  {
     width: 200px;
     object-fit: cover;
-    margin-left: 110%;
+    margin-left: 50%;
 }
 
 header .tel {
