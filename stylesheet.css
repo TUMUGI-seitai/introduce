@@ -263,6 +263,10 @@ header .my-picture {
     font-size: 1.25rem;
     margin-bottom: 20px;
 }
+.paitient-comment p:first-of-type {
+    margin-bottom: 0;
+}
+
 .paitient-comment .applicable {
     margin-bottom: 120px;
     font-size: 1rem;
@@ -410,7 +414,9 @@ header .my-picture {
     border-bottom: 1px solid grey;
     padding-bottom: 20px; 
 }
-
+.emotion {
+    margin-bottom: 80px;
+}
 
 
 /* *** */
