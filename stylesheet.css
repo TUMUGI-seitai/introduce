@@ -49,15 +49,15 @@ p {
 header {
     padding-top: 30px;
 }
-header .title-name {
+
+/* フォントで紬を表示 */
+/* header .title-name {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
 }
-
-/* フォントで紬を表示 */
-/* header h1:first-of-type {
+header h1:first-of-type {
     border-bottom: 1px solid rgb(145,206,137);
     padding-bottom: 3px;
     font-size: 1.25rem;
@@ -69,10 +69,27 @@ header .title-name span  {
     color:rgb(145, 206, 137);
     margin-left: 15px; 
 } */
+
+/* 画像で絆を表示 ここから*/
+header .title-name h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+header .title-name .tel-menu {
+    /* display: flex; */
+    margin-bottom: 10px;
+    /* justify-content: center; */
+    /* width: 100%; */
+    text-align: center;
+}
+header .title-name .tel-menu p {
+    /* margin-left: 20px; */
+}
+/* 画像で絆を表示 ここまで */
+
 header .title-name h1 img  {
     width: 200px;
     object-fit: cover;
-    margin-left: 50%;
 }
 
 header .tel {
@@ -299,7 +316,7 @@ header .my-picture {
     margin-bottom: 30px;
 }
 .self-introduction img {
-    width: 50%;
+    width: 70%;
     display: block;
     margin: 0 auto;
 
@@ -332,7 +349,7 @@ header .my-picture {
     display: table;
 }
 #initial-medical-flow img {
-    width: 50%;
+    width: 70%;
     display: block;
     margin: 0 auto;
     border: 1px solid #000;
@@ -340,6 +357,17 @@ header .my-picture {
 }
 #initial-medical-flow .offer {
     margin-top: 150px;
+}
+
+/* *********** */
+/* suitability */
+/* *********** */
+#suitability h2 {
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    padding-bottom: 3px;
+    font-size: 1.4rem;     
 }
 
 
