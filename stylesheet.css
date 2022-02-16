@@ -55,19 +55,26 @@ header .title-name {
     justify-content: space-between;
     margin-bottom: 30px;
 }
-header h1:first-of-type {
+
+/* フォントで紬を表示 */
+/* header h1:first-of-type {
     border-bottom: 1px solid rgb(145,206,137);
     padding-bottom: 3px;
     font-size: 1.25rem;
     display: inline-block;
-
 }
 header .title-name span  {
     font-family: 'Reggae One', cursive;
     font-size: 3.5rem;
     color:rgb(145, 206, 137);
     margin-left: 15px; 
+} */
+header .title-name h1 img  {
+    width: 200px;
+    object-fit: cover;
+    margin-left: 110%;
 }
+
 header .tel {
     color: rgb(82, 135, 214);
     font-size: 1rem;
