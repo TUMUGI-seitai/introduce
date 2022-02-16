@@ -295,6 +295,8 @@ header .my-picture {
 /* ***** */
 .offer-content {
     margin-bottom: 120px;
+    border: 1px solid rgba(136, 143, 135, 0.5);
+    padding: 10px;
 }
 .offer-content > h2 {
     margin-bottom: 30px;
@@ -469,18 +471,6 @@ header .my-picture {
     top: 0;
     left: 0;
 }
-
-/* .container {
-    max-width: 700px;
-    margin: 0 auto;
-    border: 1px solid #000;
-} */
-
-
-
-
-
-
 
 
 /* ***** */
