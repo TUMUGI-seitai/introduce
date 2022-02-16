@@ -177,23 +177,20 @@ header .desc span {
     background-color: rgb(20, 29, 167);
     color: white;
 }
-header .head-img {
+header .my-picture {
+    width: 70%;
+    object-fit: cover;
+    /* display: inline-block; */
+}
+
+/* header .head-img {
     filter: opacity(15%);
     position: absolute;
     display: inline-block;
     top:30px;
     left: 0;
     object-fit: cover;
-}
-header .my-picture {
-    max-width: 70%;
-    object-fit: cover;
-    display: inline-block;
-    /* filter: opacity(100%); */
-    /* position: absolute; */
-    /* bottom:-80px; */
-    /* right: 0; */
-}
+} */
 
 
 /* *********** */
