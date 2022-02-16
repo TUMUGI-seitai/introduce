@@ -93,6 +93,10 @@ header .title-name .h1-title {
 header .title-name h1 {
     margin-bottom: 15px;
 }
+header .title-name h1 span {
+    margin-left: 10px;
+}
+
 header .title-name .h1-title img {
     width: 250px;
 }
@@ -102,9 +106,6 @@ header .title-name .tel-menu {
     /* justify-content: center; */
     /* width: 100%; */
     text-align: center;
-}
-header .title-name .tel-menu p {
-    /* margin-left: 20px; */
 }
 /* 画像で絆を表示 ここまで */
 
@@ -140,7 +141,7 @@ nav ul {
 nav li{
     font-size: 0.875rem;
     font-weight: bold;
-    line-height: 1.25;
+    line-height: 1.5;
 
 }
 nav li a:hover {
@@ -293,10 +294,10 @@ header .my-picture {
 /* ***** */
 /* offer */
 /* ***** */
-.offer {
+.offer-content {
     margin-bottom: 120px;
 }
-.offer h2 {
+.offer-content > h2 {
     margin-bottom: 30px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -305,16 +306,16 @@ header .my-picture {
     font-size: 1.4rem;    
     text-align: center;
 }
-.offer p {
+.offer-content p {
     font-size: 1rem;
     margin-bottom: 10px;
 }
-.offer p span {
+.offer-content p span {
     background-color: yellow;
     font-weight: bold;
     font-size: 1.25rem;
 }
-.offer img {
+.offer-content img {
     width: 250px;
     margin-bottom: 20px;
 }
@@ -343,7 +344,7 @@ header .my-picture {
 }
 .self-introduction p span {
     font-size: 1.5rem;
-    background-color: rgba(188, 214, 183, 0.5);
+    background-color: rgba(161, 229, 147, 0.5);
 }
 .self-introduction img {
     width: 70%;
@@ -429,16 +430,38 @@ header .my-picture {
     margin-bottom: 80px;
 }
 
+/* ****** */
+/* access */
+/* ****** */
 
-/* *** */
-/* 開発 */
-/* *** */
+.access h2 {
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 1.4rem;       
+}
+.access dl {
+    margin-bottom: 1.5rem;
+}
+.access dt {
+    margin-bottom: 5px;
+}
+.access .park-pic {
+    text-align: center;
+}
+.access dl img {
+    width: 70%;
+    margin-top: 20px;
+    border: 1px solid #000;
+}
 .access-map {
     position: relative;
     width: 100%;
     height: 0;
     overflow: hidden;
     padding-bottom: 56%;
+    margin-bottom: 30px;
 }
 .access-map iframe {
     position: absolute;
@@ -447,11 +470,12 @@ header .my-picture {
     top: 0;
     left: 0;
 }
-.container {
+
+/* .container {
     max-width: 700px;
     margin: 0 auto;
     border: 1px solid #000;
-}
+} */
 
 
 
