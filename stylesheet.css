@@ -40,7 +40,7 @@ p {
 .mark2 li::before {
     content:"\f00d";
     font-weight: 900;
-    color:green;
+    color: red;
     font-family: "Font Awesome 5 Pro";
     margin-right: 8px;
 }
@@ -141,16 +141,16 @@ nav ul {
 nav li{
     font-size: 0.875rem;
     font-weight: bold;
-    line-height: 1.5;
-
+}
+nav li a {
+    display: inline-block;
+    padding: 15px 0;
+    line-height: 1;
 }
 nav li a:hover {
     color:rgba(0,0,0,0.5);
     background-color: rgba(14, 17, 230, 0.6);
     color: white;
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 /* desc */
@@ -238,7 +238,7 @@ header .my-picture {
 .anti-corona ul li {
     margin-bottom: 5px;
     text-indent: 0;
-    text-indent: -0.8rem;
+    text-indent: -1.8rem;
 }
 .anti-corona ul li span {
     margin-left: 5%;
@@ -318,7 +318,9 @@ header .my-picture {
 }
 .offer-content img {
     width: 250px;
-    margin-bottom: 20px;
+}
+.offer-content dl {
+    margin-bottom: 1.5rem;
 }
 
 /* ***************** */
@@ -456,6 +458,9 @@ header .my-picture {
     margin-top: 20px;
     border: 1px solid #000;
 }
+.access .mail {
+    color: blue;
+}
 .access-map {
     position: relative;
     width: 100%;
@@ -470,6 +475,14 @@ header .my-picture {
     height: 100%;
     top: 0;
     left: 0;
+}
+
+/* ****** */
+/* footer */
+/* ****** */
+
+footer {
+    margin-bottom: 30px;
 }
 
 
