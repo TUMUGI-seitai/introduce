@@ -335,10 +335,15 @@ header .my-picture {
     line-height: 2;
     margin-bottom: 30px;
 }
+.self-introduction p span {
+    font-size: 1.5rem;
+    background-color: rgba(188, 214, 183, 0.5);
+}
 .self-introduction img {
     width: 70%;
     display: block;
     margin: 0 auto;
+    margin-bottom: 30px;
 
 }
 
