@@ -37,6 +37,21 @@ p {
     font-family: "Font Awesome 5 Pro";
     margin-right: 8px;
 }
+.mark2 li::before {
+    content:"\f00d";
+    font-weight: 900;
+    color:green;
+    font-family: "Font Awesome 5 Pro";
+    margin-right: 8px;
+}
+.mark3 li::before {
+    content:"\f004";
+    font-weight: 900;
+    color:green;
+    font-family: "Font Awesome 5 Pro";
+    margin-right: 8px;
+}
+
 .lum-lightbox-inner img {
     max-width: 120vw;
     max-height: 90vh;
@@ -291,6 +306,7 @@ header .my-picture {
 }
 .offer img {
     width: 250px;
+    margin-bottom: 20px;
 }
 
 /* ***************** */
@@ -328,6 +344,7 @@ header .my-picture {
 
 #initial-medical-flow {
     margin-top: 50px;
+    margin-bottom: 80px;
 }
 #initial-medical-flow div {
     margin-bottom: 30px;
@@ -369,6 +386,31 @@ header .my-picture {
     padding-bottom: 3px;
     font-size: 1.4rem;     
 }
+#suitability h3 {
+    font-size: 1.125rem;
+    margin: 30px 0 ; 
+    background-color: rgba(105, 236, 101, 0.7);
+    color: rgb(121, 112, 112);
+    padding: 5px;
+    display: table;
+}
+#suitability ul {
+    font-size: 1rem;
+    margin-bottom: 60px;
+}
+#suitability ul li {
+    margin-bottom: 10px;
+    text-indent: -1.4rem;
+    margin-left: 16px;
+    border-top: 1px solid grey;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+#suitability ul li:last-child {
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px; 
+}
+
 
 
 /* *** */
