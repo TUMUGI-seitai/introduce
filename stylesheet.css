@@ -86,9 +86,15 @@ header .title-name span  {
 } */
 
 /* 画像で絆を表示 ここから*/
-header .title-name h1 {
+header .title-name .h1-title {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+header .title-name h1 {
+    margin-bottom: 15px;
+}
+header .title-name .h1-title img {
+    width: 250px;
 }
 header .title-name .tel-menu {
     /* display: flex; */
