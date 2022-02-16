@@ -228,14 +228,13 @@ header .my-picture {
 }
 .anti-corona ul {
     /* list-style: outside ; */
-    margin-left: 10px;
+    margin-left: 16px;
     margin-bottom: 30px;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 .anti-corona ul li {
-    margin-bottom: 5px;
-    text-indent: 0;
-    text-indent: -1.8rem;
+    margin-bottom: 10px;
+    text-indent: -1.4rem;
 }
 .anti-corona ul li span {
     margin-left: 5%;
