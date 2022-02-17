@@ -266,6 +266,9 @@ header .my-picture {
         repeat(2, minmax(100px, auto));
    gap:5px;
    margin-bottom: 30px;
+   border: 1px solid rgba(136, 143, 135, 0.5);
+   padding: 3px;
+}
 }
 .paitient-comment p {
     font-size: 1.25rem;
