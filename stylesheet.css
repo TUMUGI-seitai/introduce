@@ -100,10 +100,10 @@ header .title-name h1 {
 header .title-name h1 span {
     margin-left: 10px;
 }
-header .title-name .h1-title img {
-    width: 100px;
+#header .title-name .h1-title img {
+    width: 120px;
     height: 100px;
-    object-fit: cover;
+    object-fit: contain;
 }
 header .title-name .tel-menu {
     /* display: flex; */
@@ -183,7 +183,7 @@ header .desc span {
     background-color: rgb(20, 29, 167);
     color: white;
 }
-header .my-picture {
+.header .my-picture {
     width: 70%;
     object-fit: cover;
     /* display: inline-block; */
