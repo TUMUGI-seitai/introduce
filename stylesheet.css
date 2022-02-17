@@ -473,6 +473,7 @@ header .desc span {
 }
 .access .mail {
     color: blue;
+    text-decoration: underline;
 }
 .access-map {
     position: relative;
