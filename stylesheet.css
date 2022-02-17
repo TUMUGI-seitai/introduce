@@ -184,7 +184,7 @@ header .desc span {
     color: white;
 }
 header .my-picture {
-    width: 70%;
+    max-width: 50%;
     object-fit: cover;
     /* display: inline-block; */
 }
@@ -325,6 +325,9 @@ header .my-picture {
 }
 .offer-content dl {
     margin-bottom: 1.5rem;
+}
+.offer-content dl:first-of-type {
+    margin-top: 30px;
 }
 .offer-content dt {
     margin-bottom: 5px;
