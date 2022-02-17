@@ -101,7 +101,8 @@ header .title-name h1 span {
     margin-left: 10px;
 }
 header .title-name .h1-title img {
-    width: ;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
 }
 header .title-name .tel-menu {
@@ -332,6 +333,7 @@ header .my-picture {
 .offer-content dd span {
     background-color: yellow;
     color: blue;
+    font-weight: bold;
 }
 
 /* ***************** */
