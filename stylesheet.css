@@ -75,13 +75,13 @@ header .title-name {
     justify-content: space-between;
     margin-bottom: 30px;
 }
-header h1:first-of-type {
+header h1 {
     border-bottom: 1px solid rgb(145,206,137);
     padding-bottom: 3px;
     font-size: 1.25rem;
     display: inline-block;
 }
-header .title-name span  {
+header .title-name h1 span  {
     font-family: 'Reggae One', cursive;
     font-size: 3.5rem;
     color:rgb(145, 206, 137);
@@ -92,7 +92,7 @@ header .tel-menu {
     text-align: center;
 }
 
-/* 画像で絆を表示 ここから*/
+/* 画像で紬を表示 ここから*/
 /* header .title-name .h1-title {
     text-align: center;
     margin-bottom: 10px;
