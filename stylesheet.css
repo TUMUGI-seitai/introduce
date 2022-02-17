@@ -91,6 +91,9 @@ header .tel-menu {
     width: 100%;
     text-align: center;
 }
+header .tel-menu ruby {
+    font-size: 2rem;
+}
 
 /* 画像で紬を表示 ここから*/
 /* header .title-name .h1-title {
