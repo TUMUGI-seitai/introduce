@@ -330,10 +330,13 @@ header .my-picture {
 .offer-content dd {
     margin-bottom: 5px;
 }
-.offer-content dd span {
+.offer-content dd .off {
     background-color: yellow;
     color: blue;
+}
+.offer-content dd .price {
     font-weight: bold;
+    font-size: 1.25rem;
 }
 
 /* ***************** */
