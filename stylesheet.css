@@ -82,10 +82,11 @@ header h1 {
     display: inline-block;
 }
 header .title-name h1 span.name {
-    font-family: 'Reggae One', cursive;
+    /* font-family: 'Reggae One', cursive; */
     font-size: 3.5rem;
     color:rgb(145, 206, 137);
     margin-left: 15px; 
+    font-weight: bold;
 }
 header .tel-menu {
     width: 100%;
@@ -93,7 +94,7 @@ header .tel-menu {
 }
 header .tel-menu .yomi {
     font-size: 0.875rem;
-    font-family: 'Reggae One', cursive;
+    /* font-family: 'Reggae One', cursive; */
     color:rgb(145, 206, 137);
 }
 
