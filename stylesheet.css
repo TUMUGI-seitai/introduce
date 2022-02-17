@@ -81,7 +81,7 @@ header h1 {
     font-size: 1.25rem;
     display: inline-block;
 }
-header .title-name h1 span  {
+header .title-name h1 span.name {
     font-family: 'Reggae One', cursive;
     font-size: 3.5rem;
     color:rgb(145, 206, 137);
@@ -91,8 +91,10 @@ header .tel-menu {
     width: 100%;
     text-align: center;
 }
-header .tel-menu ruby {
-    font-size: 2rem;
+header .tel-menu .yomi {
+    font-size: 0.875rem;
+    font-family: 'Reggae One', cursive;
+    color:rgb(145, 206, 137);
 }
 
 /* 画像で紬を表示 ここから*/
