@@ -183,7 +183,7 @@ header .desc span {
     background-color: rgb(20, 29, 167);
     color: white;
 }
-.header .my-picture {
+header .my-picture {
     width: 70%;
     object-fit: cover;
     /* display: inline-block; */
