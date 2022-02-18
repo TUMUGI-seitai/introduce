@@ -210,14 +210,14 @@ header .desc p {
     font-size: 1.25rem;
     font-weight: bold;
     text-align: left;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 header .desc span {
     background-color: rgb(20, 29, 167);
     color: white;
 }
 header .my-picture {
-    max-width: 80%;
+    max-width: 90%;
     object-fit: cover;
     border: 1px solid #000;
 }
@@ -236,7 +236,7 @@ header .my-picture {
 /* anti-corona */
 /* *********** */
 .anti-corona {
-    margin-top: 80px;
+    margin-top: 120px;
     margin-bottom: 120px;
 }
 
