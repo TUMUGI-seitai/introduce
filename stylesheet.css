@@ -219,7 +219,7 @@ header .desc span {
 header .my-picture {
     max-width: 80%;
     object-fit: cover;
-    /* display: inline-block; */
+    border: 1px solid #000;
 }
 
 /* header .head-img {
@@ -259,6 +259,7 @@ header .my-picture {
     object-fit: cover;
     display: block;
     width: 32%;
+    bd
 }
 .anti-corona .mesure-img {
     display: flex;
@@ -410,6 +411,7 @@ header .my-picture {
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
+    border: 1px solid #000;
 
 }
 
@@ -449,6 +451,8 @@ header .my-picture {
 }
 #initial-medical-flow .offer {
     margin-top: 150px;
+}
+.inspection img {
 }
 
 /* *********** */
@@ -510,7 +514,7 @@ header .my-picture {
     text-align: center;
 }
 .access dl img {
-    width: 70%;
+    width: 100%;
     margin-top: 20px;
     border: 1px solid #000;
 }
