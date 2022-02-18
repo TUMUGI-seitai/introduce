@@ -279,7 +279,7 @@ header .my-picture {
    gap:5px;
    margin-bottom: 30px;
    border: 1px solid rgba(136, 143, 135, 0.5);
-   border-radius: 1%;
+   border-radius: 5px;
    padding: 3px;
 }
 .paitient-comment p {
@@ -313,7 +313,7 @@ header .my-picture {
 .offer-content {
     margin-bottom: 120px;
     border: 1px solid rgba(136, 143, 135, 0.5);
-    border-radius: 1%;
+    border-radius: 5px;
     padding: 10px;
 }
 .offer-content > h2 {
