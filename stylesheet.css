@@ -259,7 +259,6 @@ header .my-picture {
     object-fit: cover;
     display: block;
     width: 32%;
-    bd
 }
 .anti-corona .mesure-img {
     display: flex;
@@ -443,7 +442,7 @@ header .my-picture {
     display: table;
 }
 #initial-medical-flow img {
-    width: 70%;
+    width: 85%;
     display: block;
     margin: 0 auto;
     border: 1px solid #000;
