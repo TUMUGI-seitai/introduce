@@ -197,7 +197,7 @@ header .desc {
     height: 500px;
     position: relative;
     margin-top: 5px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     text-align: center;
 }
 header .desc h2 {
@@ -210,14 +210,14 @@ header .desc p {
     font-size: 1.25rem;
     font-weight: bold;
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 header .desc span {
     background-color: rgb(20, 29, 167);
     color: white;
 }
 header .my-picture {
-    max-width: 50%;
+    max-width: 60%;
     object-fit: cover;
     /* display: inline-block; */
 }
@@ -236,7 +236,7 @@ header .my-picture {
 /* anti-corona */
 /* *********** */
 .anti-corona {
-    margin-top: 100px;
+    margin-top: 0px;
     margin-bottom: 120px;
 }
 
