@@ -217,7 +217,7 @@ header .desc span {
     color: white;
 }
 header .my-picture {
-    max-width: 60%;
+    max-width: 80%;
     object-fit: cover;
     /* display: inline-block; */
 }
@@ -236,7 +236,7 @@ header .my-picture {
 /* anti-corona */
 /* *********** */
 .anti-corona {
-    margin-top: 0px;
+    margin-top: 80px;
     margin-bottom: 120px;
 }
 
