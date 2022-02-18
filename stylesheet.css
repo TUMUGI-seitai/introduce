@@ -4,6 +4,7 @@
 
 html {
     font-size: 100%;
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'Noto Sans JP', 'Noto Sans', sans-serif;
