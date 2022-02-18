@@ -84,19 +84,40 @@ header h1 {
     display: inline-block;
 }
 header .title-name h1 span.name {
-    /* font-family: 'Reggae One', cursive; */
     font-size: 3.5rem;
     color:rgb(145, 206, 137);
     margin-left: 15px; 
     font-weight: bold;
 }
+
+/* フォントお試し用 */
+header .name1,
+header .name2,
+header .name3  {
+    display: block;
+}
+header .name1 span {
+    font-family: 'Noto Serif JP', serif;
+}
+header .name2 span {
+    font-family: 'Shippori Mincho B1', serif;
+}
+header .name3 span{
+    font-family: 'Yuji Syuku', serif;
+}
+header .title-name h1 span.name {
+    font-weight: normal;
+
+}
+
+
+
 header .tel-menu {
     width: 100%;
     text-align: center;
 }
 header .tel-menu .yomi {
     font-size: 0.875rem;
-    /* font-family: 'Reggae One', cursive; */
     color:rgb(145, 206, 137);
 }
 
