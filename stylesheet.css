@@ -157,14 +157,22 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(141, 174, 235, 1);
+    /* background-color: rgba(141, 174, 235, 1); */
+    background-color: rgb(3, 3, 3);
+
     padding:6px 6px;
     height: 50px;
     align-items: center;
 }
-nav li{
+nav li {
     font-size: 0.875rem;
     font-weight: bold;
+    color: white;
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+nav li:first-child {
+    border-left: none;
 }
 nav li a {
     display: inline-block;
@@ -179,7 +187,7 @@ nav li a:hover {
 
 /* desc */
 header .desc {
-    height: 500px;
+    /* height: 380px; */
     position: relative;
     margin-top: 5px;
     margin-bottom: 30px;
@@ -187,46 +195,47 @@ header .desc {
 }
 header .desc h2 {
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: normal;
     background: rgba(255,255,255,0.4);
-    text-align: left;
+    text-align: conter;
+    width: 60%;
+    color: red;
+    letter-spacing: 3px;
 }
-header .desc p {
+header .desc .head-desc {
     font-size: 1.25rem;
-    font-weight: bold;
+    font-weight: normal;
     text-align: left;
     margin-bottom: 20px;
-}
-header .desc span {
-    background-color: rgb(20, 29, 167);
-    color: white;
+    width: 55%;
 }
 header .my-picture {
-    max-width: 90%;
+    width: 42%;
     object-fit: cover;
-    border: 1px solid #000;
-}
-header .my-picture.pc,
-header .pc-bg {
-    display: none;
-}
-
-
-/* header .head-img {
-    filter: opacity(15%);
     position: absolute;
+    top: 10%;
+    right: 0;
+}
+header .maru1 {
+    background-color: rgb(238, 129, 40);
     display: inline-block;
-    top:30px;
-    left: 0;
-    object-fit: cover;
-} */
-
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    text-align: left;
+    margin: 0 10px;
+}
+header .maru1 p {
+    text-align: center;
+    padding-top: 20%;
+}
 
 /* *********** */
 /* anti-corona */
 /* *********** */
 .anti-corona {
-    margin-top: 120px;
+    margin-top: 60px;
     margin-bottom: 120px;
 }
 
@@ -240,10 +249,11 @@ header .pc-bg {
 .anti-corona p {
     font-size: 1.25rem;
     margin-bottom: 12px;
+    color: red;
 }
 .anti-corona p span {
     color: red;
-    font-weight: bold;
+    font-weight: normal;
 }
 .anti-corona .mesure-img img {
     object-fit: cover;
@@ -254,6 +264,9 @@ header .pc-bg {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+}
+.anti-corona .mesure-img img {
+    border: 1px solid black;
 }
 .anti-corona ul {
     /* list-style: outside ; */
@@ -582,11 +595,7 @@ footer {
         font-size: 2rem;
         width: 60%;
     }
-
     header .my-picture {
-        display: none;
-    }
-    header .my-picture.pc {
         display:inline-block;
         max-width: 350px;
         border: none;
