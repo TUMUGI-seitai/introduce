@@ -87,18 +87,6 @@ header .title-name h1 span.name {
     font-weight: bold;
 }
 
-/* フォントお試し用 */
-header .name1,
-header .name2,
-header .name3  {
-    display: block;
-}
-header .name1 span {
-    font-family: 'Noto Serif JP', serif;
-}
-header .name2 span {
-    font-family: 'Shippori Mincho B1', serif;
-}
 header .name3 span{
     font-family: 'Yuji Syuku', serif;
 }
@@ -218,6 +206,11 @@ header .my-picture {
     object-fit: cover;
     border: 1px solid #000;
 }
+header .my-picture.pc,
+header .pc-bg {
+    display: none;
+}
+
 
 /* header .head-img {
     filter: opacity(15%);
@@ -409,7 +402,6 @@ header .my-picture {
     margin-bottom: 30px;
     /* border: 1px solid #000; */
     border-radius: 50%;
-
 }
 
 /* ******************** */
@@ -557,7 +549,56 @@ footer {
         padding: 0 16px;
         margin: 0 auto;
 
-        border: 1px solid #000;
+        /* border: 1px solid #000; */
     }
 
+    /* navi */
+
+    nav {
+        max-width: 1200px;
+        margin-bottom: 80px;
+    }
+    nav ul {
+        height: 60px;
+        padding:10px 60px;
+        background-color: rgb(240, 227, 227);
+        border-top: 2px solid grey;
+        border-bottom: 2px solid grey;
+    }
+    nav li {
+        font-size: 1.75rem;
+        font-weight: normal;
+    }
+
+    /* header desc */
+    header.under {
+        margin-bottom: 100px;
+    }
+
+    header .desc h2 {
+        font-size: 4rem;
+    }
+    header .desc p {
+        font-size: 2rem;
+        width: 60%;
+    }
+
+    header .my-picture {
+        display: none;
+    }
+    header .my-picture.pc {
+        display:inline-block;
+        max-width: 350px;
+        border: none;
+        position: absolute;
+        right: 0;
+        top: 10%;
+    }
+    header.under {
+        background-image: url(./img/jibun3-pc-header.jpg);
+    }
+    header .img-thumb {
+        float: right;
+
+    }
 }
