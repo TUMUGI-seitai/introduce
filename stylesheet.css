@@ -195,7 +195,7 @@ header .desc {
     text-align: center;
 }
 header .desc h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: normal;
     background: rgba(255,255,255,0.4);
     text-align: conter;
@@ -204,7 +204,7 @@ header .desc h2 {
     letter-spacing: 3px;
 }
 header .desc .head-desc {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: normal;
     text-align: left;
     margin-bottom: 20px;
