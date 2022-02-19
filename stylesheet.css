@@ -407,7 +407,7 @@ header .my-picture {
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     border-radius: 50%;
 
 }
