@@ -173,7 +173,7 @@ nav li {
 }
 nav li:first-child {
     border-left: none;
-    padding-left: 0;
+    padding-left: 4px;
 }
 nav li a {
     display: inline-block;
