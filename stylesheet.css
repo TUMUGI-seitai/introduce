@@ -55,6 +55,9 @@ p {
     max-width: 110vw;
     max-height: 90vh;
 }
+.pc {
+    display: none;
+}
 
 /* ****** */
 /* header */
@@ -87,16 +90,13 @@ header .title-name h1 span.name {
     font-weight: bold;
 }
 
-header .name3 span{
+header .shop-name span{
     font-family: 'Yuji Syuku', serif;
 }
 header .title-name h1 span.name {
     font-weight: normal;
 
 }
-
-
-
 header .tel-menu {
     width: 100%;
     text-align: center;
@@ -560,56 +560,141 @@ footer {
     /* common */
 
     .wrapper {
-        max-width: 1200px;
+        max-width: 1000px;
         padding: 0 16px;
         margin: 0 auto;
 
         /* border: 1px solid #000; */
     }
+    .mobile {
+        display: none;
+    }
+
+
+    /* header */
+
+    header .tel-menu {
+        display: flex;
+        text-align: left;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header .tel-menu h1 {
+        font-size: 1.5rem;
+    }
+    header .title-name h1 span.name {
+        font-size: 4rem;
+    }
+    header .tel-menu .tel {
+        font-size: 1.5rem;
+        padding-top: 20px;
+        width: 309px;
+    }
+    header .tel-menu .tel span {
+        font-size: 1.25rem;
+    }
+    header .tel-menu .okayasi.pc {
+        display: inline-block;
+        font-size: 1.25rem;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 70px;
+        /* background-color: rgba(197, 208, 230, 0.7); */
+    }
+    header .tel-menu .okayasi.pc span {
+        font-size: 2.125rem;
+        background-color: rgba(67, 235, 45,0.8);
+        color: rgb(243, 91, 21);
+        padding: 0 5px 0 5px;
+        font-family: 'Yuji Syuku', serif;
+    }
+    header .tel-menu .tel.pc {
+        display: inline-block;
+        margin-left: 40px;
+    }
 
     /* navi */
 
     nav {
-        max-width: 1200px;
+        max-width: 1000px;
         margin-bottom: 80px;
     }
     nav ul {
         height: 60px;
-        padding:10px 60px;
-        background-color: rgb(240, 227, 227);
-        border-top: 2px solid grey;
-        border-bottom: 2px solid grey;
+        padding:10px 50px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
     }
     nav li {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         font-weight: normal;
+        padding-left: 3%;
+    }
+    nav ul li .pc {
+        display: table;
+    }
+    nav li:first-child {
+        padding-left: 0;
     }
 
     /* header desc */
+
     header.under {
         margin-bottom: 100px;
+        padding-bottom: 20px;
+        padding-top: 1px;
     }
 
     header .desc h2 {
-        font-size: 4rem;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        font-size: 3.5rem;
+        font-weight: bold;
     }
-    header .desc p {
-        font-size: 2rem;
+    header .desc .head-desc {
+        font-size: 2.25rem;
         width: 60%;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        font-weight: 900;
     }
     header .my-picture {
         display:inline-block;
-        max-width: 350px;
+        max-width: 430px;
         border: none;
         position: absolute;
         right: 0;
-        top: 10%;
+        top: 19%;
+    }
+    header .my-picture figcaption {
+        font-size: 1.25rem;
     }
     header.under {
-        background-image: url(./img/jibun3-pc-header.jpg);
+        background-image: url(./img/jibun3-pc-header2.png);
+        background-position: top right;
     }
-    header .img-thumb {
-        float: right;
+    header .maru-wrapper {
+        text-align: left;
+    }
+    header .maru1 {
+        background-color: #6097eb;
+        border: none;
+        color: white;
+        width: 130px;
+        height: 130px;
+    }
+    header .maru1 p {
+        text-align: center;
+        padding-top: 25%;
+        font-size: 1.5rem;
+    }
 
+
+    /* anti-corona */
+
+    .anti-corona h2 {
+        font-size: 2rem;
     }
+
+
+
+
 }
