@@ -17,6 +17,7 @@ body {
 img {
     max-width: 100%;
     border-radius: 3%;
+    line-height: 0.1;
 }
 h1 {
     font-size: 2rem;
@@ -198,8 +199,8 @@ header .desc {
 header .desc h2 {
     font-size: 1.75rem;
     font-weight: normal;
-    background: rgba(255,255,255,0.4);
-    text-align: conter;
+    background: rgba(255,255,255,0.1);
+    text-align: center;
     width: 55%;
     color: red;
     letter-spacing: 3px;
@@ -457,8 +458,6 @@ header .maru1 p {
 #initial-medical-flow .offer {
     margin-top: 150px;
 }
-.inspection img {
-}
 
 /* *********** */
 /* suitability */
@@ -564,8 +563,9 @@ footer {
         max-width: 1200px;
         padding: 0 16px;
         margin: 0 auto;
-
-        /* border: 1px solid #000; */
+    }
+    p, li {
+        letter-spacing: 1px;
     }
     .mobile {
         display: none;
@@ -747,8 +747,8 @@ footer {
     .offer-content {
         border:none;
         margin-bottom: 120px;
-        /* text-align: center; */
-        padding-left:30%;
+        text-align: center;
+        /* padding-left:30%; */
 
         border: 1px solid #000;
     }
@@ -787,20 +787,39 @@ footer {
 
     /* self-introduction */
 
+    .self-intro-title {
+        font-size: 2rem;
+        border-bottom: 2px solid black;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
     .self-introduction {
         margin: 0 auto;
     }
     .self-introduction .content {
         padding: 0 13%;
+        font-size: 1em;
+        font-weight: 500;
+        font-family:sans-serif;
     }
-
     .self-introduction h2 {
-        font-size: 2rem;      
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+        border-bottom: none;
+        background-color: #6097eb;
+        color: white;
+        padding: 1% 2%;
+        /* border-left: 8px solid rgb(196, 189, 189); */
+        /* padding-left: 20px;       */
+    }
+    .self-introduction p span {
+        font-size: 1.25rem;
+        background-color:transparent;
     }
     .self-introduction img {
-        width: 30%;
-        display: block;
-        margin: 0 auto;
+        /* width: 30%; */
+        /* display: inline; */
+        /* margin: 0 auto; */
         margin-bottom: 30px;
         border-radius: 30%;
     }
@@ -808,6 +827,13 @@ footer {
         font-size: 1.25rem;
         line-height: 1.7;
         margin-bottom: 30px;
+        /* display: inline; */
+    }
+    .self-introduction .self-img {
+        /* shape-outside: circle(); */
+        float: left;
+        width: 28%;
+        margin-left: 7%;
     }
 
     /* initial-medical-flow */
