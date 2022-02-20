@@ -560,7 +560,7 @@ footer {
     /* common */
 
     .wrapper {
-        max-width: 1000px;
+        max-width: 1200px;
         padding: 0 16px;
         margin: 0 auto;
 
@@ -599,7 +599,6 @@ footer {
         margin-top: 20px;
         margin-left: 30px;
         margin-right: 70px;
-        /* background-color: rgba(197, 208, 230, 0.7); */
     }
     header .tel-menu .okayasi.pc span {
         font-size: 2.125rem;
@@ -616,7 +615,7 @@ footer {
     /* navi */
 
     nav {
-        max-width: 1000px;
+        max-width: 1200px;
         margin-bottom: 80px;
     }
     nav ul {
@@ -662,14 +661,16 @@ footer {
         border: none;
         position: absolute;
         right: 0;
-        top: 19%;
+        top: 5%;
     }
     header .my-picture figcaption {
         font-size: 1.25rem;
     }
     header.under {
         background-image: url(./img/jibun3-pc-header2.png);
-        background-position: top right;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     header .maru-wrapper {
         text-align: left;
@@ -680,6 +681,7 @@ footer {
         color: white;
         width: 130px;
         height: 130px;
+        border: 1px solid white;
     }
     header .maru1 p {
         text-align: center;
@@ -693,7 +695,11 @@ footer {
     .anti-corona h2 {
         font-size: 2rem;
     }
-
+    .anti-corona p {
+        font-size: 1.75rem;
+        margin-bottom: 12px;
+        color: red;
+    }
 
 
 
