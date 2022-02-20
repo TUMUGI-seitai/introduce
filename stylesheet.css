@@ -692,7 +692,10 @@ footer {
 
 
     /* anti-corona */
-
+    .anti-corona {
+        border: 2px solid red;
+        padding: 2%;
+    }
     .anti-corona h2 {
         font-size: 2rem;
     }
@@ -700,6 +703,9 @@ footer {
         font-size: 1.75rem;
         margin-bottom: 12px;
         color: red;
+    }
+    .anti-corona ul {
+        font-size: 1.5rem;
     }
 
 
