@@ -158,7 +158,7 @@ nav ul {
     display: flex;
     justify-content: space-between;
     /* background-color: rgba(141, 174, 235, 1); */
-    background-color: rgb(3, 3, 3);
+    background-color: rgba(3, 3, 3, 1);
     border-top: 1px solid white;
     padding:6px 6px;
     height: 50px;
@@ -621,8 +621,9 @@ footer {
     nav ul {
         height: 60px;
         padding:10px 50px;
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
+        border: 1px solid #000;
+        background-color: #6097eb;
+
     }
     nav li {
         font-size: 1.5rem;
