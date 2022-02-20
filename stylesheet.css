@@ -54,6 +54,7 @@ p {
 .lum-lightbox-inner img {
     max-width: 110vw;
     max-height: 87vh;
+    border-radius: 0%;
 }
 .pc {
     display: none;
@@ -271,7 +272,6 @@ header .maru1 p {
     border: 1px solid black;
 }
 .anti-corona ul {
-    /* list-style: outside ; */
     margin-left: 16px;
     margin-bottom: 30px;
     font-size: 1rem;
@@ -297,11 +297,12 @@ header .maru1 p {
 }
 .paitient-comment ul img {
     object-fit: cover;
+    border: 1px solid #000;
 }
 .paitient-comment .patient-img {
-    display: grid;
-    grid-template-columns: 
-        repeat(2, minmax(100px, auto));
+   display: grid;
+   grid-template-columns: 
+    repeat(2, minmax(100px, auto));
    gap:5px;
    margin-bottom: 30px;
    border: 1px solid rgba(136, 143, 135, 0.5);
@@ -662,10 +663,14 @@ footer {
         border: none;
         position: absolute;
         right: 0;
-        top: 5%;
+        top: 1%;
     }
     header .my-picture figcaption {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
+        margin-top: 10px;
+        background-color: white;
+        display: inline-block;
+        padding: 3px;
     }
     header.under {
         background-image: url(./img/jibun3-pc-header2.png);
@@ -690,8 +695,8 @@ footer {
         font-size: 1.5rem;
     }
 
-
     /* anti-corona */
+
     .anti-corona {
         border: 2px solid red;
         padding: 2%;
@@ -708,6 +713,155 @@ footer {
         font-size: 1.5rem;
     }
 
+    /* paitient-comment */
 
+    .paitient-comment h2 {
+        font-size: 2rem;
+    }
+    .paitient-comment .patient-img {
+       display: grid;
+       grid-template-columns: 
+        repeat(3, minmax(100px, auto));
+       gap:15px;
+       border: 0px solid rgba(136, 143, 135, 0.5);
+       border-radius: 5px;
+       padding-top: 15px;
+       width: 85%;
+       margin:0 auto;
+       margin-bottom: 30px;
+    }
+    .paitient-comment p {
+        font-size: 1.75rem;
+        margin-bottom: 60px;
+    }
+    .paitient-comment p:first-of-type {
+        margin-left: 8%;
+        font-size: 1.25rem;
+    }
+    .paitient-comment .applicable {
+        font-size: 1.4rem;
+    }
 
+    /* offer */
+
+    .offer-content {
+        border:none;
+        margin-bottom: 120px;
+        /* text-align: center; */
+        padding-left:30%;
+
+        border: 1px solid #000;
+    }
+
+    .offer-content > h2 {
+        margin-bottom: 30px;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 2rem;    
+        text-align: center;
+        display: inline-block;
+    }
+    .offer-content dl,
+    .offer-content p {
+        font-size: 1.5rem;
+    }
+    .offer-content p:first-of-type {
+        margin-top: 30px;
+    }
+    .offer-content p.indent {
+        text-indent: -0.6rem;
+    }
+    .offer-content dl {
+        margin-bottom: 50px;
+    }
+    .offer-content dd .off {
+        background-color: yellow;
+        color: blue;
+    }
+    .offer-content dd .price {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    /* self-introduction */
+
+    .self-introduction {
+        margin: 0 auto;
+    }
+    .self-introduction .content {
+        padding: 0 13%;
+    }
+
+    .self-introduction h2 {
+        font-size: 2rem;      
+    }
+    .self-introduction img {
+        width: 30%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        border-radius: 30%;
+    }
+    .self-introduction p {
+        font-size: 1.25rem;
+        line-height: 1.7;
+        margin-bottom: 30px;
+    }
+
+    /* initial-medical-flow */
+
+    #initial-medical-flow h2 {
+        font-size: 2rem; 
+    }
+    #initial-medical-flow h3 {
+        font-size: 1.25rem;
+    }
+    #initial-medical-flow p {
+        font-size: 1.25rem;
+    }
+    #initial-medical-flow img {
+        width: 35%;
+        margin-top: 30px;
+    }
+
+    /* suitability */
+
+    #suitability h2 {
+        font-size: 2rem;     
+    }  
+    #suitability h3 {
+        font-size: 1.5rem;
+    }
+    #suitability ul {
+        font-size: 1.25rem;
+    }
+    #suitability p {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+    }
+
+    /* access */
+
+    .access h2 {
+        font-size: 2rem;       
+    }
+    .access dl {
+        font-size: 1.25rem;
+    }
+    .access dl img {
+        width: 60%;
+        margin-bottom: 30px;
+
+    }
+    .access dl .qr {
+        width: 250px;
+    }
+    
+    /* footer */
+
+    footer {
+        font-size: 1.5rem;
+    }
 }
