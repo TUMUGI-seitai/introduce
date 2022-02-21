@@ -407,12 +407,22 @@ header .maru1 p {
     padding: 0 30px;
     /* border: 1px solid #000; */
 }
-.self-introduction h2 {
+.self-intro-title {
     margin-bottom: 30px;
     border-bottom: 2px solid black;
     display: inline-block;
     padding-bottom: 3px;
-    font-size: 1.4rem;      
+    font-size: 1.4rem;  
+}
+
+.self-introduction h2 {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    border-bottom: none;
+    background-color: #6097eb;
+    color: white;
+    padding: 1% 2%;
+    display: inline-block;
 }
 .self-introduction p {
     line-height: 2;
