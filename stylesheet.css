@@ -382,7 +382,7 @@ header .maru1 p {
     margin-top: 30px;
 }
 .offer-content dt {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .offer-content dd {
     margin-bottom: 5px;
@@ -416,7 +416,7 @@ header .maru1 p {
 }
 
 .self-introduction h2 {
-    font-size: 1.25rem;
+    font-size: 1.175rem;
     margin-bottom: 30px;
     border-bottom: none;
     background-color: #6097eb;
@@ -804,6 +804,8 @@ footer {
     }
     .offer-content dl {
         margin-bottom: 50px;
+        text-align: left;
+        padding-left: 40%;
     }
     /* .offer-content dd .off {
         background-color: yellow;
@@ -826,7 +828,7 @@ footer {
         margin: 0 auto;
     }
     .self-introduction .content {
-        padding: 0 13%;
+        padding: 0 2%;
         font-size: 1em;
         font-weight: 500;
         /* font-family:sans-serif; */
@@ -862,7 +864,7 @@ footer {
         /* shape-outside: circle(); */
         float: left;
         width: 28%;
-        margin-left: 7%;
+        margin-left: 0%;
     }
 
     /* initial-medical-flow */
