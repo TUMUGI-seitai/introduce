@@ -666,6 +666,10 @@ footer {
     nav li:first-child {
         padding-left: 0;
     }
+    nav li a:hover {
+        background-color: rgb(82, 135, 214);
+        color: rgb(250, 254, 255);
+    }
 
     /* header desc */
 
