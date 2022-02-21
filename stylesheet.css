@@ -110,6 +110,10 @@ header .tel {
     color: rgb(82, 135, 214);
     font-size: 1rem;
 }
+header .tel-menu a {
+    color: blue;
+    text-decoration: underline;
+}
 header .tel span {
     color: black;
     font-size: 0.75rem;
@@ -369,6 +373,10 @@ header .maru1 p {
     font-weight: bold;
     font-size: 1.25rem;
 }
+.offer-content .tel-link {
+    color: blue;
+    text-decoration: underline;
+}
 
 /* ***************** */
 /* self-introduction */
@@ -519,6 +527,10 @@ header .maru1 p {
     border: 1px solid #000;
 }
 .access .mail {
+    color: blue;
+    text-decoration: underline;
+}
+.access .tel-link {
     color: blue;
     text-decoration: underline;
 }
@@ -801,6 +813,9 @@ footer {
         font-weight: bold;
         font-size: 1.5rem;
     }
+    .offer-content .pc {
+        display: table;
+    }
 
     /* self-introduction */
 
@@ -903,7 +918,9 @@ footer {
     .access dl .qr {
         width: 250px;
     }
-    
+    .access .pc {
+        display: table;
+    }
     /* footer */
 
     footer {
