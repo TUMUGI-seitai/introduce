@@ -696,7 +696,7 @@ footer {
         border: none;
         position: absolute;
         right: 0;
-        top: 1%;
+        top: 10%;
     }
     header .my-picture figcaption {
         font-size: 1.5rem;
