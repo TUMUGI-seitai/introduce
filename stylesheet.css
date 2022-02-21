@@ -354,14 +354,14 @@ header .maru1 p {
     text-align: center;
 }
 .offer-content .price-img {
-    width: 80%;
+    width: 100%;
     margin-top: 7%;
     margin-bottom: 3%;
     border: 1px dotted #000;
     border-radius: 0%;
     padding:0 3%;
     padding-top: 2%;
-    margin-left: 5%;
+    margin-left: 0%;
 }
 .offer-content p {
     font-size: 1rem;
@@ -387,10 +387,10 @@ header .maru1 p {
 .offer-content dd {
     margin-bottom: 5px;
 }
-.offer-content dd .off {
+/* .offer-content dd .off {
     background-color: yellow;
     color: blue;
-}
+} */
 .offer-content dd .price {
     font-weight: bold;
     font-size: 1.25rem;
@@ -772,6 +772,16 @@ footer {
         text-align: center;
         display: inline-block;
     }
+    .offer-content .price-img {
+        width: 80%;
+        margin-top: 6%;
+        margin-bottom: 3%;
+        border: 1px dotted #000;
+        border-radius: 0%;
+        padding:0 3%;
+        padding-top: 2%;
+        margin-left: 5%;
+    }
     .offer-content dl,
     .offer-content p {
         font-size: 1.5rem;
@@ -785,10 +795,10 @@ footer {
     .offer-content dl {
         margin-bottom: 50px;
     }
-    .offer-content dd .off {
+    /* .offer-content dd .off {
         background-color: yellow;
         color: blue;
-    }
+    } */
     .offer-content dd .price {
         font-weight: bold;
         font-size: 1.5rem;
