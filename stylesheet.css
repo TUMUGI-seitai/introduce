@@ -377,7 +377,10 @@ header .maru1 p {
     color: blue;
     text-decoration: underline;
 }
-
+.offer-content .line-link {
+    color: blue;
+    text-decoration: underline;
+}
 /* ***************** */
 /* self-introduction */
 /* ***************** */
@@ -531,6 +534,10 @@ header .maru1 p {
     text-decoration: underline;
 }
 .access .tel-link {
+    color: blue;
+    text-decoration: underline;
+}
+.access .line-link {
     color: blue;
     text-decoration: underline;
 }
@@ -913,7 +920,6 @@ footer {
     .access dl img {
         width: 60%;
         margin-bottom: 30px;
-
     }
     .access dl .qr {
         width: 250px;
