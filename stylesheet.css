@@ -106,33 +106,6 @@ header .tel-menu .yomi {
     font-size: 0.875rem;
     color:rgb(145, 206, 137);
 }
-
-/* 画像で紬を表示 ここから*/
-/* header .title-name .h1-title {
-    text-align: center;
-    margin-bottom: 10px;
-}
-header .title-name h1 {
-    font-size: 1.25rem;
-    margin-bottom: 10px;
-}
-header .title-name h1 span {
-    margin-left: 10px;
-}
-#header .title-name .h1-title img {
-    width: 120px;
-    height: 100px;
-    object-fit: contain;
-}
-header .title-name .tel-menu {
-    display: flex;
-    margin-bottom: 10px;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
-} */
-/* 画像で絆を表示 ここまで */
-
 header .tel {
     color: rgb(82, 135, 214);
     font-size: 1rem;
@@ -196,23 +169,25 @@ header .desc {
     text-align: center;
 }
 header .desc h2 {
-    font-size: 1.75rem;
-    font-weight: normal;
+    font-size: 1.5rem;
+    font-weight: bold;
     background: rgba(255,255,255,0.1);
-    text-align: center;
-    width: 55%;
+    text-align: left;
+    width: 65%;
     color: red;
     letter-spacing: 3px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
 header .desc .head-desc {
     font-size: 1rem;
     font-weight: normal;
     text-align: left;
     margin-bottom: 20px;
-    width: 55%;
+    width: 65%;
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
 header .my-picture {
-    width: 42%;
+    width: 35%;
     object-fit: cover;
     position: absolute;
     top: 10%;
