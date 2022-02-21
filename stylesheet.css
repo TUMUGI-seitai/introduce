@@ -648,6 +648,8 @@ footer {
         padding:10px 20%;
         border: 1px solid #000;
         background-color: rgb(234, 242, 243);
+        border-left: none;
+        border-right: none;
 
     }
     nav li {
