@@ -636,20 +636,24 @@ footer {
     /* navi */
 
     nav {
-        max-width: 1200px;
-        margin-bottom: 80px;
+        /* max-width: 1200px; */
+        max-width: 100%;
+        /* margin-bottom: 80px; */
     }
     nav ul {
         height: 60px;
-        padding:10px 50px;
+        padding:10px 20%;
         border: 1px solid #000;
-        background-color: #6097eb;
+        background-color: rgb(234, 242, 243);
 
     }
     nav li {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         font-weight: normal;
         padding-left: 3%;
+        color: black;
+        border-left: 0px solid white;
+
     }
     nav ul li .pc {
         display: table;
