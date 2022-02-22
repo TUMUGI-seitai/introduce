@@ -169,7 +169,7 @@ header .desc {
     /* height: 380px; */
     position: relative;
     margin-top: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     text-align: center;
 }
 header .desc h2 {
@@ -229,16 +229,17 @@ header .maru1 p {
 
     margin-bottom: 30px;
     font-size: 1.4rem;
-    color: rgb(66, 62, 58);
+    /* color: rgb(66, 62, 58); */
+    color: white;
     background-image:linear-gradient(90deg,#238CCC, #C5E5EE);
-    background-image:linear-gradient(90deg,#C5E5EE, #238CCC);
+    /* background-image:linear-gradient(90deg,#C5E5EE, #238CCC); */
     padding: 3%;
     /* font-weight: bold; */
     border: 1px dotted rgb(238, 129, 40);
-    width: 100vw;
+    width: 102vw;
     position: absolute;
-    left: -3%;
-    top: 0;
+    left: -5%;
+    top: -13%;
 }
 .anti-corona p {
     font-size: 1.25rem;
@@ -279,6 +280,9 @@ header .maru1 p {
 /* **************** */
 /* paitient-comment */
 /* **************** */
+.paitient-comment {
+    position: relative;
+}
 
 .paitient-comment h2 {
     /* border-bottom: 2px solid black; */
@@ -289,12 +293,17 @@ header .maru1 p {
     font-size: 1.4rem;    
     margin-bottom: 30px;
     font-size: 1.4rem;
-    color: rgb(66, 62, 58);
+    /* color: rgb(66, 62, 58); */
+    color: white;
     background-image:linear-gradient(90deg,#238CCC, #C5E5EE);
+    /* background-image:linear-gradient(90deg,#C5E5EE, #238CCC); */
     padding: 3%;
-    font-weight: bold;
+    /* font-weight: bold; */
     border: 1px dotted rgb(238, 129, 40);
-
+    width: 102vw;
+    position: absolute;
+    left: -5%;
+    top: 0;
 }
 .paitient-comment ul img {
     object-fit: cover;
@@ -409,6 +418,7 @@ header .maru1 p {
 
 .self-introduction {
     margin-bottom: 90px;
+    position: relative;
 }
 .self-introduction .content {
     padding: 0 30px;
@@ -423,15 +433,20 @@ header .maru1 p {
 
     margin-bottom: 30px;
     font-size: 1.4rem;
-    color: rgb(66, 62, 58);
+    /* color: rgb(66, 62, 58); */
+    color: white;
     background-image:linear-gradient(90deg,#238CCC, #C5E5EE);
+    /* background-image:linear-gradient(90deg,#C5E5EE, #238CCC); */
     padding: 3%;
-    font-weight: bold;
+    /* font-weight: bold; */
     border: 1px dotted rgb(238, 129, 40);
-
+    width: 102vw;
+    position: absolute;
+    left: -5%;
+    top: -2.3%;
 }
 
-.self-introduction h2 {
+.self-introduction .incho-name {
     font-size: 1.175rem;
     margin-bottom: 30px;
     border-bottom: none;
@@ -466,6 +481,7 @@ header .maru1 p {
 #initial-medical-flow {
     margin-top: 50px;
     margin-bottom: 80px;
+    position: relative;
 }
 #initial-medical-flow div {
     margin-bottom: 30px;
@@ -480,11 +496,17 @@ header .maru1 p {
 
     margin-bottom: 30px;
     font-size: 1.4rem;
-    color: rgb(66, 62, 58);
+    /* color: rgb(66, 62, 58); */
+    color: white;
     background-image:linear-gradient(90deg,#238CCC, #C5E5EE);
+    /* background-image:linear-gradient(90deg,#C5E5EE, #238CCC); */
     padding: 3%;
-    font-weight: bold;
+    /* font-weight: bold; */
     border: 1px dotted rgb(238, 129, 40);
+    width: 102vw;
+    position: absolute;
+    left: -5%;
+    top: -0.5%;
 
 }
 #initial-medical-flow h3 {
@@ -511,6 +533,9 @@ header .maru1 p {
 /* *********** */
 /* suitability */
 /* *********** */
+#suitability  {
+    position: relative;
+}
 #suitability h2 {
     /* margin-bottom: 30px;
     border-bottom: 2px solid black;
@@ -520,16 +545,22 @@ header .maru1 p {
 
     margin-bottom: 30px;
     font-size: 1.4rem;
-    color: rgb(66, 62, 58);
+    /* color: rgb(66, 62, 58); */
+    color: white;
     background-image:linear-gradient(90deg,#238CCC, #C5E5EE);
+    /* background-image:linear-gradient(90deg,#C5E5EE, #238CCC); */
     padding: 3%;
-    font-weight: bold;
+    /* font-weight: bold; */
     border: 1px dotted rgb(238, 129, 40);
+    width: 102vw;
+    position: absolute;
+    left: -5%;
+    top: 0%;
 
 }
 #suitability h3 {
     font-size: 1.125rem;
-    margin: 30px 0 ; 
+    margin: 30px 0 0 0; 
     background-color: rgba(105, 236, 101, 0.7);
     color: rgb(121, 112, 112);
     padding: 5px;
@@ -541,7 +572,7 @@ header .maru1 p {
 }
 #suitability ul li {
     margin-bottom: 10px;
-    text-indent: -1.4rem;
+    text-indent: -1rem;
     margin-left: 16px;
     border-top: 1px solid grey;
     padding-top: 20px;
@@ -551,6 +582,10 @@ header .maru1 p {
     border-bottom: 1px solid grey;
     padding-bottom: 20px; 
 }
+
+#suitability ul li:first-child {
+    border-top: none;
+}
 .emotion {
     margin-bottom: 80px;
 }
@@ -558,6 +593,9 @@ header .maru1 p {
 /* ****** */
 /* access */
 /* ****** */
+.access {
+    position: relative;
+}
 
 .access h2 {
     /* margin-bottom: 30px;
@@ -568,12 +606,17 @@ header .maru1 p {
 
     margin-bottom: 30px;
     font-size: 1.4rem;
-    color: rgb(66, 62, 58);
+    /* color: rgb(66, 62, 58); */
+    color: white;
     background-image:linear-gradient(90deg,#238CCC, #C5E5EE);
+    /* background-image:linear-gradient(90deg,#C5E5EE, #238CCC); */
     padding: 3%;
-    font-weight: bold;
+    /* font-weight: bold; */
     border: 1px dotted rgb(238, 129, 40);
-
+    width: 102vw;
+    position: absolute;
+    left: -5%;
+    top: -0.5%;
 }
 .access dl {
     margin-bottom: 1.5rem;
