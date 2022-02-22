@@ -700,16 +700,20 @@ footer {
     /* header */
 
     header .tel-menu {
-        display: flex;
-        text-align: left;
+        /* display: flex; */
+        text-align: center;
         align-items: center;
         justify-content: space-between;
     }
     header .tel-menu h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
+        margin-left: 5%;
     }
     header .title-name h1 span.name {
         font-size: 4rem;
+    }
+    header .title-name h1 span.yomi {
+        font-size: 1.25rem;
     }
     header .tel-menu .tel {
         font-size: 1.5rem;
@@ -748,8 +752,8 @@ footer {
     nav ul {
         height: 60px;
         padding:10px 20%;
-        border: 1px solid #000;
-        background-color: rgb(234, 242, 243);
+        /* border: 1px solid #000; */
+        /* background-color: rgb(234, 242, 243); */
         border-left: none;
         border-right: none;
 
@@ -757,11 +761,16 @@ footer {
     nav li {
         font-size: 1.25rem;
         font-weight: normal;
-        padding-left: 3%;
-        color: black;
-        border-left: 0px solid white;
-
+        /* padding-left: 3%; */
+        /* color: black; */
+        /* border-left: 0px solid white; */
     }
+    nav li:first-child {
+        border-left: 1px solid white;
+    }
+    nav li:last-child {
+        border-right: 1px solid white;
+    }    
     nav ul li .pc {
         display: table;
     }
@@ -776,7 +785,7 @@ footer {
     /* header desc */
 
     header.under {
-        margin-bottom: 100px;
+        margin-bottom: 0;
         padding-bottom: 20px;
         padding-top: 1px;
     }
@@ -808,18 +817,18 @@ footer {
         padding: 3px;
     }
     header.under {
-        background-image: url(./img/jibun3-pc-header2.png);
-        background-position: top center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        /* background-image: url(./img/jibun3-pc-header2.png); */
+        /* background-position: top center; */
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
     }
     header .maru-wrapper {
         text-align: left;
     }
     header .maru1 {
-        background-color: #6097eb;
+        /* background-color: #6097eb; */
         border: none;
-        color: white;
+        /* color: white; */
         width: 130px;
         height: 130px;
         border: 1px solid white;
@@ -835,6 +844,7 @@ footer {
     .anti-corona {
         border: 2px solid red;
         padding: 2%;
+        margin-top: 0;
     }
     .anti-corona h2 {
         font-size: 4rem;
