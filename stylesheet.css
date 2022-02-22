@@ -417,7 +417,6 @@ header .maru1 p {
 }
 
 /* 空白調整 */
-
 .offer-content dt {
     background-color: rgb(240, 228, 128);
     padding: 2%;
@@ -717,10 +716,8 @@ header .maru1 p {
     padding: 2%;
     border: 1px solid black;  
     margin-bottom: 2%;
+    font-weight: bold;
 }
-
-
-
 
 /* ****** */
 /* footer */
@@ -740,8 +737,8 @@ footer {
     /* common */
 
     .wrapper {
-        max-width: 1200px;
-        padding: 0 16px;
+        max-width: 1000px;
+        padding: 0 1%;
         margin: 0 auto;
     }
     p, li {
@@ -840,7 +837,7 @@ footer {
 
     header.under {
         margin-bottom: 0;
-        padding-bottom: 20px;
+        /* padding-bottom: 20px; */
         padding-top: 1px;
     }
 
@@ -901,7 +898,7 @@ footer {
         margin-top: 0;
     }
     .anti-corona h2 {
-        font-size: 4rem;
+        font-size: 3.5rem;
         position: static;
         background-image: none;
         color: black;
@@ -998,7 +995,7 @@ footer {
     .offer-content dl {
         margin-bottom: 50px;
         text-align: left;
-        padding-left: 40%;
+        /* padding-left: 40%; */
     }
     /* .offer-content dd .off {
         background-color: yellow;
