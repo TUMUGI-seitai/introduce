@@ -135,23 +135,24 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-between;
-    /* background-color: rgba(141, 174, 235, 1); */
     background-color: rgba(3, 3, 3, 1);
     border-top: 1px solid white;
-    padding:6px 6px;
+    /* padding:6px 6px; */
     height: 50px;
     align-items: center;
+    text-align: center;
 }
 nav li {
-    font-size: 0.875rem;
+    font-size: 0.8rem;
     font-weight: bold;
     color: white;
     border-left: 1px solid white;
-    padding-left:3%;
+    padding-left:0;
+    width: calc(99% / 5);
 }
 nav li:first-child {
     border-left: none;
-    padding-left: 5%;
+    padding-left: 0;
 }
 nav li a {
     display: inline-block;
