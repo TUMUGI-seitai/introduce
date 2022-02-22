@@ -222,11 +222,17 @@ header .maru1 p {
 }
 
 .anti-corona h2 {
+    /* border-bottom: 2px solid black; */
+    /* display: inline-block; */
+    /* padding-bottom: 3px; */
+
     margin-bottom: 30px;
-    border-bottom: 2px solid black;
-    display: inline-block;
-    padding-bottom: 3px;
     font-size: 1.4rem;
+    color: rgb(66, 62, 58);
+    background-image:linear-gradient(90deg,#238CCC, #C5E5EE);
+    padding: 3%;
+    font-weight: bold;
+    border: 1px dotted rgb(238, 129, 40);
 }
 .anti-corona p {
     font-size: 1.25rem;
@@ -268,11 +274,20 @@ header .maru1 p {
 /* **************** */
 
 .paitient-comment h2 {
+    /* border-bottom: 2px solid black; */
+    /* display: inline-block; */
+    /* padding-bottom: 3px; */
+
     margin-bottom: 30px;
-    border-bottom: 2px solid black;
-    display: inline-block;
-    padding-bottom: 3px;
     font-size: 1.4rem;    
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    color: rgb(66, 62, 58);
+    background-image:linear-gradient(90deg,#238CCC, #C5E5EE);
+    padding: 3%;
+    font-weight: bold;
+    border: 1px dotted rgb(238, 129, 40);
+
 }
 .paitient-comment ul img {
     object-fit: cover;
@@ -393,19 +408,28 @@ header .maru1 p {
     /* border: 1px solid #000; */
 }
 .self-intro-title {
+    /* margin-bottom: 30px; */
+    /* border-bottom: 2px solid black; */
+    /* display: inline-block; */
+    /* padding-bottom: 3px; */
+    /* font-size: 1.4rem;   */
+
     margin-bottom: 30px;
-    border-bottom: 2px solid black;
-    display: inline-block;
-    padding-bottom: 3px;
-    font-size: 1.4rem;  
+    font-size: 1.4rem;
+    color: rgb(66, 62, 58);
+    background-image:linear-gradient(90deg,#238CCC, #C5E5EE);
+    padding: 3%;
+    font-weight: bold;
+    border: 1px dotted rgb(238, 129, 40);
+
 }
 
 .self-introduction h2 {
     font-size: 1.175rem;
     margin-bottom: 30px;
     border-bottom: none;
-    background-color: #6097eb;
-    color: white;
+    /* background-color: #6097eb; */
+    color: black;
     padding: 1% 2%;
     display: inline-block;
 }
@@ -441,19 +465,30 @@ header .maru1 p {
 }
 
 #initial-medical-flow h2 {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px;
     border-bottom: 2px solid black;
     display: inline-block;
     padding-bottom: 3px;
-    font-size: 1.4rem; 
+    font-size: 1.4rem;  */
+
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    color: rgb(66, 62, 58);
+    background-image:linear-gradient(90deg,#238CCC, #C5E5EE);
+    padding: 3%;
+    font-weight: bold;
+    border: 1px dotted rgb(238, 129, 40);
+
 }
 #initial-medical-flow h3 {
     font-size: 1.125rem;
     margin-bottom: 15px;
-    background-color: rgba(105, 236, 101, 0.7);
-    color: rgb(121, 112, 112);
+    /* background-color: rgba(105, 236, 101, 0.7); */
+    /* color: rgb(121, 112, 112); */
     padding: 5px;
     display: table;
+    border-bottom: 1px solid black;
+    background-image:linear-gradient(90deg,#ecdecc, #eeeeee);
 }
 #initial-medical-flow img {
     width: 85%;
@@ -470,11 +505,20 @@ header .maru1 p {
 /* suitability */
 /* *********** */
 #suitability h2 {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px;
     border-bottom: 2px solid black;
     display: inline-block;
     padding-bottom: 3px;
-    font-size: 1.4rem;     
+    font-size: 1.4rem;      */
+
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    color: rgb(66, 62, 58);
+    background-image:linear-gradient(90deg,#238CCC, #C5E5EE);
+    padding: 3%;
+    font-weight: bold;
+    border: 1px dotted rgb(238, 129, 40);
+
 }
 #suitability h3 {
     font-size: 1.125rem;
@@ -509,11 +553,20 @@ header .maru1 p {
 /* ****** */
 
 .access h2 {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px;
     border-bottom: 2px solid black;
     display: inline-block;
     padding-bottom: 10px;
-    font-size: 1.4rem;       
+    font-size: 1.4rem; */
+
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    color: rgb(66, 62, 58);
+    background-image:linear-gradient(90deg,#238CCC, #C5E5EE);
+    padding: 3%;
+    font-weight: bold;
+    border: 1px dotted rgb(238, 129, 40);
+
 }
 .access dl {
     margin-bottom: 1.5rem;
