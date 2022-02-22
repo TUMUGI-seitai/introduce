@@ -420,7 +420,7 @@ header .maru1 p {
 
 .self-introduction {
     margin-top: 120px;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
     position: relative;
 }
 .self-introduction .content {
@@ -464,7 +464,7 @@ header .maru1 p {
 }
 .self-introduction p {
     line-height: 2;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 .self-introduction p span {
     font-size: 1.5rem;
@@ -696,7 +696,6 @@ footer {
         display: none;
     }
 
-
     /* header */
 
     header .tel-menu {
@@ -837,7 +836,17 @@ footer {
         padding: 2%;
     }
     .anti-corona h2 {
-        font-size: 2rem;
+        font-size: 4rem;
+        position: static;
+        background-image: none;
+        color: black;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 0;
+        display: inline-block;
+        width: auto;
+        margin-left: 7%;
     }
     .anti-corona p {
         font-size: 1.75rem;
@@ -851,7 +860,11 @@ footer {
     /* paitient-comment */
 
     .paitient-comment h2 {
-        font-size: 2rem;
+        font-size: 3rem;
+        
+        position: static;
+        width: 100%;
+        padding: 1%;
     }
     .paitient-comment .patient-img {
        display: grid;
@@ -936,14 +949,17 @@ footer {
 
     /* self-introduction */
 
-    .self-intro-title {
-        font-size: 2rem;
-        border-bottom: 2px solid black;
-        display: inline-block;
-        margin-bottom: 30px;
-    }
+
     .self-introduction {
         margin: 0 auto;
+    }
+    .self-introduction .self-intro-title {
+        font-size: 3rem;
+        display: inline-block;
+        margin-bottom: 30px;
+        position: static;
+        width: 100%;
+        padding: 1%;
     }
     .self-introduction .content {
         padding: 0 2%;
@@ -990,7 +1006,10 @@ footer {
     /* initial-medical-flow */
 
     #initial-medical-flow h2 {
-        font-size: 2rem; 
+        font-size: 3rem;
+        position: static;
+        width: 100%; 
+        padding: 1%;
     }
     #initial-medical-flow h3 {
         font-size: 1.25rem;
@@ -1006,7 +1025,10 @@ footer {
     /* suitability */
 
     #suitability h2 {
-        font-size: 2rem;     
+        font-size: 3rem;
+        position: static;
+        width: 100%;
+        padding: 1%;  
     }  
     #suitability h3 {
         font-size: 1.5rem;
@@ -1022,7 +1044,10 @@ footer {
     /* access */
 
     .access h2 {
-        font-size: 2rem;       
+        font-size: 3rem;   
+        position: static;
+        width: 100%;
+        padding: 1%;   
     }
     .access dl {
         font-size: 1.25rem;
