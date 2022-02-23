@@ -418,7 +418,7 @@ header .maru1 p {
 
 /* 空白調整 */
 .offer-content dt {
-    background-color: rgb(240, 228, 128);
+    background-image:linear-gradient(90deg,#b0f3ae, #e4f0e4);
     padding: 2%;
     border-bottom: 1px solid black;
 }
@@ -663,7 +663,8 @@ header .maru1 p {
 }
 .access dl img {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     border: 1px solid #000;
 }
 .access dd.img {
@@ -699,23 +700,24 @@ header .maru1 p {
 
 /* 空白調整 */
 .access dt {
-    background-color: rgb(240, 228, 128);
-    padding: 2%;
+    background-image:linear-gradient(90deg,#b0f3ae, #e4f0e4);
+    padding: 1%;
     border-bottom: 1px solid black;
+    font-weight: normal;
 }
 .access dl {
     border: 1px solid #000;
 }
 .access dd {
     padding-left:2% ;
-    padding-bottom: 2%;   
+    padding-bottom: 1%;
 }
 .access p.map {
-    background-color: rgb(240, 228, 128);
+    background-image:linear-gradient(90deg,#b0f3ae, #e4f0e4);
     padding: 2%;
     border: 1px solid black;  
     margin-bottom: 2%;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* ****** */
@@ -991,6 +993,11 @@ footer {
     .offer-content p.indent {
         text-indent: -0.6rem;
     }
+    .offer-content dt {
+        padding: 1%;
+        font-size: 1rem;
+        font-weight: normal;
+    }
     .offer-content dl {
         margin-bottom: 50px;
         text-align: left;
@@ -1005,9 +1012,7 @@ footer {
         font-size: 1.5rem;
     }
     .offer-content dl .pc {
-        display: table;
-        margin: 0;
-        padding: 0 0 0 1%;
+        display: inline-block;
     }
 
     /* self-introduction */
@@ -1118,23 +1123,31 @@ footer {
         width: 100%;
         padding: 1%;   
     }
+    .access dt {
+        font-size: 1rem;
+    }
     .access dl {
         font-size: 1.25rem;
+        margin-bottom: 50px;
     }
     .access dl img {
-        width: 60%;
+        width: 100%;
         margin-bottom: 30px;
     }
     .access dl .qr {
         width: 250px;
     }
-    .access .pc {
-        display: table;
-        padding: 0 0 0 1%;
+    .access dd {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .access dd.pc {
+        display: inline-block;
     }
     /* footer */
 
     footer {
         font-size: 1.5rem;
     }
+   
 }
