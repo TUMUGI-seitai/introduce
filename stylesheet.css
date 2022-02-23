@@ -956,7 +956,7 @@ footer {
 
     .offer-content {
         border:none;
-        margin-bottom: 120px;
+        margin-bottom: 90px;
         text-align: center;
         /* padding-left:30%; */
 
@@ -1005,12 +1005,13 @@ footer {
         font-weight: bold;
         font-size: 1.5rem;
     }
-    .offer-content .pc {
+    .offer-content dl .pc {
         display: table;
+        margin: 0;
+        padding: 0 0 0 1%;
     }
 
     /* self-introduction */
-
 
     .self-introduction {
         margin: 0 auto;
@@ -1083,7 +1084,13 @@ footer {
         width: 35%;
         margin-top: 30px;
     }
-
+    /* 空白調整 */
+    #initial-medical-flow .imf-wrapper {
+        display: flex;
+    }
+    #initial-medical-flow .imf-wrapper img {
+        margin: 0;
+    }
     /* suitability */
 
     #suitability h2 {
@@ -1123,6 +1130,7 @@ footer {
     }
     .access .pc {
         display: table;
+        padding: 0 0 0 1%;
     }
     /* footer */
 
