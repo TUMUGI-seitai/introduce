@@ -358,12 +358,13 @@ header .maru1 p {
 }
 .offer-content > h2 {
     margin-bottom: 30px;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     padding-bottom: 10px;
     padding-top: 10px;
     font-size: 1.4rem;    
     text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
 .offer-content .price-img {
     width: 100%;
@@ -378,6 +379,7 @@ header .maru1 p {
 .offer-content p {
     font-size: 1rem;
     margin-bottom: 10px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
 .offer-content p span {
     background-color: yellow;
@@ -416,8 +418,53 @@ header .maru1 p {
     text-decoration: underline;
 }
 
-/* 空白調整 */
-.offer-content dt {
+    /* 空白調整2　色消しなど */
+    .offer-content dt {
+        background-image:none;
+        padding: 0;
+        margin: 0;
+        border-bottom: none;
+        font-weight: normal
+    }
+    .offer-content dl {
+        border:none;
+    }
+    .offer-content dd {
+        padding-left:0 ;
+        padding-bottom: 0;
+    }
+
+    /* 空白調整2 本体 */
+    .offer-content dl {
+        display: flex;
+        margin-left: 1%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-items: center;
+        border-bottom: 1px dotted grey;
+    }
+    .offer-content dt {
+        width: 23%;
+    }
+    .offer-content dd.arrow {
+        border-bottom:10px solid transparent;
+        border-right:10px solid transparent;
+        border-left:10px solid transparent;
+        border-top:10px solid red;
+        margin: 0 0 0 32%;
+        width: 5px;
+        height: 5px;
+    }
+    .offer-content .price-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .offer-content .tax {
+        font-size: 0.5rem;
+    }
+
+/* 空白調整1 */
+/* .offer-content dt {
     background-image:linear-gradient(90deg,#b0f3ae, #e4f0e4);
     padding: 2%;
     border-bottom: 1px solid black;
@@ -439,7 +486,7 @@ header .maru1 p {
     box-sizing: border-box;
     padding: 0;
     margin: 0 0 -10px 18%; 
-}
+} */
 
 /* ***************** */
 /* self-introduction */
@@ -474,7 +521,7 @@ header .maru1 p {
     width: 102vw;
     position: absolute;
     left: -5%;
-    top: -2.3%;
+    top: -2.8%;
 }
 
 .self-introduction .incho-name {
@@ -697,6 +744,37 @@ header .maru1 p {
     top: 0;
     left: 0;
 }
+     /* 空白調整2　色消しなど */
+     .access .grid-display dt {
+        background-image:none;
+        padding: 0;
+        margin: 0;
+        border-bottom: none;
+    }
+    .access .grid-display dl {
+        border:none;
+    }
+    .access .grid-display dd {
+        padding-left:0 ;
+        padding-bottom: 0;
+    }
+
+    /* 空白調整2 本体 */
+    .access .grid-display dl {
+        display: flex;
+        margin-left: 0%;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        align-items: center;
+        border-bottom: 1px dotted grey;
+        padding-bottom: 5px;
+    }
+    .access .grid-display dt {
+        width: 30%;
+    }
+    .access .grid-display .mobile {
+        /* display: none; */
+    }
 
 /* 空白調整 */
 .access dt {
@@ -726,6 +804,7 @@ header .maru1 p {
 
 footer {
     margin-bottom: 30px;
+    margin-top: 12%;
 }
 
 
@@ -1003,10 +1082,6 @@ footer {
         text-align: left;
         /* padding-left: 40%; */
     }
-    /* .offer-content dd .off {
-        background-color: yellow;
-        color: blue;
-    } */
     .offer-content dd .price {
         font-weight: bold;
         font-size: 1.5rem;
@@ -1014,6 +1089,57 @@ footer {
     .offer-content dl .pc {
         display: inline-block;
     }
+
+    /* 空白調整2　色消しなど */
+    .offer-content dt {
+        background-image:none;
+        padding: 0;
+        margin: 0;
+        border-bottom: none;
+    }
+    .offer-content dl {
+        border:none;
+    }
+    .offer-content dd {
+        padding-left:0 ;
+        padding-bottom: 0;
+        width: 40%;
+    }
+    /* 空白調整2 本体 */
+    .offer-content dl {
+        display: flex;
+        margin-left: 15%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-items: center;
+        border-bottom: 1px dotted grey;
+    }
+    .offer-content dt {
+        width: 10%;
+    }
+    .offer-content dd.arrow {
+        border-bottom:10px solid transparent;
+        border-right:10px solid transparent;
+        border-left:10px solid red;
+        border-top:10px solid transparent;
+        margin: 4px 15px 0 0;
+        width: 10px;
+        height: 10px;
+    }
+    .offer-content .price-info {
+        flex-direction: row;
+        width: 90%;
+    }
+    .offer-content .tax {
+        font-size: 1rem;
+    }
+    .offer-content .price-info dd:first-of-type {
+        width: 32%;
+    }
+    .offer-content .price-info dd:last-of-type {
+        width: 60%;
+    }
+
 
     /* self-introduction */
 
@@ -1064,7 +1190,6 @@ footer {
         /* display: inline; */
     }
     .self-introduction .self-img {
-        /* shape-outside: circle(); */
         float: left;
         width: 28%;
         margin-left: 0%;
@@ -1144,9 +1269,42 @@ footer {
     .access dd.pc {
         display: inline-block;
     }
-    /* footer */
 
+     /* 空白調整2　色消しなど */
+     .access .grid-display dt {
+        background-image:none;
+        padding: 0;
+        margin: 0;
+        border-bottom: none;
+    }
+    .access .grid-display dl {
+        border:none;
+    }
+    .access .grid-display dd {
+        padding-left:0 ;
+        padding-bottom: 0;
+    }
+
+    /* 空白調整2 本体 */
+    .access .grid-display dl {
+        display: flex;
+        margin-left: 3%;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        align-items: center;
+        border-bottom: 1px dotted grey;
+    }
+    .access .grid-display dt {
+        width: 14%;
+    }
+    .access .grid-display .pc {
+        display: block;
+    }
+
+
+    /* footer */
     footer {
+        margin-top: 5%;
         font-size: 1.5rem;
     }
    
