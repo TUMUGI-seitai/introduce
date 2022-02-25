@@ -612,6 +612,17 @@ header .maru1 p {
     margin-top: 150px;
 }
 
+#initial-medical-flow .imf-wrapper img.c-extend {
+    height: 250px;
+    object-fit: cover;
+}
+#initial-medical-flow .imf-wrapper img.c-shrink {
+    height: 320px;
+    object-fit: cover;
+}
+
+
+
 /* *********** */
 /* suitability */
 /* *********** */
@@ -1263,14 +1274,14 @@ footer {
         width: 30%;
         border: none;
     }
-    #initial-medical-flow .imf-wrapper img.c-extend {
+    /* #initial-medical-flow .imf-wrapper img.c-extend {
         height: 280px;
         object-fit: cover;
     }
     #initial-medical-flow .imf-wrapper img.c-shrink {
         height: 350px;
         object-fit: cover;
-    }
+    } */
 
     /* suitability */
 
