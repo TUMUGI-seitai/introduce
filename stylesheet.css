@@ -511,7 +511,7 @@ header .maru1 p {
     /* padding-bottom: 3px; */
     /* font-size: 1.4rem;   */
 
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     font-size: 1.4rem;
     /* color: rgb(66, 62, 58); */
     color: white;
@@ -524,7 +524,7 @@ header .maru1 p {
     width: 102vw;
     position: absolute;
     left: -5%;
-    top: -2.8%;
+    top: -1.0%;
 }
 
 .self-introduction .incho-name {
@@ -602,7 +602,7 @@ header .maru1 p {
     background-image:linear-gradient(90deg,#ecdecc, #eeeeee);
 }
 #initial-medical-flow img {
-    width: 85%;
+    width: 80%;
     display: block;
     margin: 0 auto;
     border: 1px solid #000;
@@ -951,10 +951,10 @@ footer {
         padding: 3px;
     }
     header.under {
-        /* background-image: url(./img/jibun3-pc-header2.png); */
-        /* background-position: top center; */
+        background-image: url(./img/jibun3-pc-header4.jpg);
+        background-position: top left;
         /* background-repeat: no-repeat; */
-        /* background-size: cover; */
+        background-size: cover;
     }
     header .maru-wrapper {
         text-align: left;
@@ -1027,6 +1027,20 @@ footer {
         font-size: 1.75rem;
         margin-bottom: 60px;
     }
+    .paitient-comment .sub-title {
+        font-weight: bold;
+        color:rgb(82, 135, 214)
+    }
+    .paitient-comment .sub-desc {
+        color:black;
+        font-size: 1.25rem;
+        margin-top: 30px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+
     .paitient-comment p:first-of-type {
         margin-left: 8%;
         font-size: 1.25rem;
@@ -1034,6 +1048,16 @@ footer {
     .paitient-comment .applicable {
         font-size: 1.4rem;
     }
+    .paitient-comment .applicable li {
+        border-top: 1px dotted grey;
+    }
+    .paitient-comment .applicable li:first-child {
+        border-top: none;
+    }
+    .paitient-comment .applicable li:last-child {
+        border-bottom: 1px dotted grey;
+    }
+
 
     /* offer */
 
@@ -1145,6 +1169,10 @@ footer {
 
 
     /* self-introduction */
+    
+    .self-intro-bgc {
+        background-color: rgba(235, 243, 234, 0.7);
+    }
 
     .self-introduction {
         margin: 0 auto;
@@ -1213,17 +1241,37 @@ footer {
         font-size: 1.25rem;
     }
     #initial-medical-flow img {
-        width: 35%;
+        /* width: 35%; */
         margin-top: 30px;
     }
+
     /* 空白調整 */
     #initial-medical-flow .imf-wrapper {
         display: flex;
+        align-items: center;
+        border: 1px solid dodgerblue;
+        padding: 3%;
+
+    }
+    #initial-medical-flow .imf-wrapper p {
+        width: 70%;
+        padding: 3%;
     }
     #initial-medical-flow .imf-wrapper img {
         margin: 0;
         margin-left: 1%;
+        width: 30%;
+        border: none;
     }
+    #initial-medical-flow .imf-wrapper img.c-extend {
+        height: 280px;
+        object-fit: cover;
+    }
+    #initial-medical-flow .imf-wrapper img.c-shrink {
+        height: 350px;
+        object-fit: cover;
+    }
+
     /* suitability */
 
     #suitability h2 {
@@ -1241,6 +1289,9 @@ footer {
     #suitability p {
         font-size: 1.25rem;
         margin-bottom: 10px;
+    }
+    #suitability .emotion {
+        padding-bottom: 20px;
     }
 
     /* access */
