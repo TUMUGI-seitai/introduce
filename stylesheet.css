@@ -1061,6 +1061,7 @@ footer {
     }
     .paitient-comment .applicable li {
         border-top: 1px dotted grey;
+        text-indent: -2rem;
     }
     .paitient-comment .applicable li:first-child {
         border-top: none;
