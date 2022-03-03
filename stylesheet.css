@@ -617,7 +617,8 @@ header .maru1 p {
     object-fit: cover;
 }
 #initial-medical-flow .imf-wrapper img.c-shrink {
-    height: 320px;
+    /* height: 320px; */
+    height: 270px;
     object-fit: cover;
 }
 
@@ -1278,11 +1279,11 @@ footer {
     /* #initial-medical-flow .imf-wrapper img.c-extend {
         height: 280px;
         object-fit: cover;
-    }
-    #initial-medical-flow .imf-wrapper img.c-shrink {
-        height: 350px;
-        object-fit: cover;
     } */
+    #initial-medical-flow .imf-wrapper img.c-shrink {
+        height: 250px;
+        object-fit: cover;
+    }
 
     /* suitability */
 
