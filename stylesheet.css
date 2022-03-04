@@ -407,7 +407,7 @@ header .maru1 p {
 } */
 .offer-content dd .price {
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
 }
 .offer-content .tel-link {
     color: blue;
@@ -1124,7 +1124,7 @@ footer {
     }
     .offer-content dd .price {
         font-weight: bold;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
     .offer-content dl .pc {
         display: inline-block;
@@ -1169,6 +1169,7 @@ footer {
     .offer-content .price-info {
         flex-direction: row;
         width: 90%;
+        align-items:baseline;
     }
     .offer-content .tax {
         font-size: 1rem;
