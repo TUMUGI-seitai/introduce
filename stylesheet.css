@@ -113,6 +113,7 @@ header .tel {
 header .tel-menu a {
     color: blue;
     text-decoration: underline;
+    /* display: block; */
 }
 header .tel span {
     color: black;
@@ -787,9 +788,6 @@ header .maru1 p {
     .access .grid-display dt {
         width: 30%;
     }
-    .access .grid-display .mobile {
-        /* display: none; */
-    }
 
 /* 空白調整 */
 .access dt {
@@ -866,6 +864,10 @@ footer {
         padding-top: 20px;
         width: 309px;
     }
+    header .tel-menu a {
+        display: none;
+    }
+
     header .tel-menu .tel span {
         font-size: 1.25rem;
     }
