@@ -136,7 +136,7 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(3, 3, 3, 1);
+    background-color: rgb(19, 71, 212);
     border-top: 1px solid white;
     /* padding:6px 6px; */
     height: 50px;
@@ -185,7 +185,7 @@ header .desc h2 {
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 header .desc .head-desc {
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-weight: normal;
     text-align: left;
     margin-bottom: 20px;
@@ -200,7 +200,7 @@ header .my-picture {
     right: 0;
 }
 header .maru1 {
-    background-color: rgb(238, 129, 40);
+    background-color: rgb(137, 230, 125);
     display: inline-block;
     border-radius: 50%;
     width: 100px;
@@ -600,7 +600,7 @@ header .maru1 p {
     padding: 5px;
     display: table;
     border-bottom: 1px solid black;
-    background-image:linear-gradient(90deg,#ecdecc, #eeeeee);
+    background-image:linear-gradient(90deg,#b0f3ae, #fffeee);
 }
 #initial-medical-flow img {
     width: 80%;
@@ -946,6 +946,7 @@ footer {
         width: 100%;
         /* margin-left: 12%; */
         text-align: center;
+        margin-bottom: 50px;
     
     }
     header .desc .head-desc {
@@ -953,14 +954,15 @@ footer {
         width: 60%;
         font-family: Georgia, Times, 'Times New Roman', serif;
         font-weight: 900;
+        margin-bottom: 50px;
     }
     header .my-picture {
         display:inline-block;
-        max-width: 260px;
+        max-width: 250px;
         border: none;
         position: absolute;
         right: 0;
-        top: 40%;
+        top: 20%;
     }
     header .my-picture figcaption {
         font-size: 1.5rem;
@@ -982,14 +984,15 @@ footer {
         /* background-color: #6097eb; */
         border: none;
         /* color: white; */
-        width: 160px;
-        height: 160px;
+        width: 260px;
+        height: 260px;
         border: 1px solid white;
+        margin-left: 5%;
     }
     header .maru1 p {
         text-align: center;
         padding-top: 25%;
-        font-size: 1.75rem;
+        font-size: 3rem;
     }
 
     /* anti-corona */
