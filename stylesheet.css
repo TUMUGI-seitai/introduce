@@ -184,6 +184,12 @@ header .desc h2 {
     letter-spacing: 3px;
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
+
+header .mobile.header-img {
+    width: 100%;
+}
+
+
 header .desc .head-desc {
     font-size: 0.85rem;
     font-weight: normal;
@@ -840,7 +846,7 @@ footer {
     .mobile {
         display: none;
     }
-
+    
     /* header */
 
     header .tel-menu {
@@ -949,6 +955,12 @@ footer {
         margin-bottom: 50px;
     
     }
+
+    header .pc.header-img {
+        display: block;
+        margin-top: 1%;
+    }
+
     header .desc .head-desc {
         font-size: 2.125rem;
         width: 65%;
@@ -973,7 +985,7 @@ footer {
         padding: 3px;
     }
     header.under {
-        background-image: url(./img/jibun3-pc-header4.jpg);
+        /* background-image: url(./img/jibun3-pc-header4.jpg); */
         background-position: top left;
         /* background-repeat: no-repeat; */
         background-size: cover;
