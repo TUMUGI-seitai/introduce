@@ -953,61 +953,68 @@ footer {
         /* margin-left: 12%; */
         text-align: center;
         margin-bottom: 50px;
-    
     }
 
     header .pc.header-img {
         display: block;
         margin-top: 1%;
+        width: 100%;
+        object-fit: cover;
     }
 
-    header .desc .head-desc {
+    /* header .desc .head-desc {
         font-size: 2.125rem;
         width: 65%;
         font-family: Georgia, Times, 'Times New Roman', serif;
         font-weight: 900;
         margin-bottom: 50px;
         padding-left: 5%;
-    }
-    header .my-picture {
+    } */
+
+    /* header .my-picture {
         display:inline-block;
         max-width: 240px;
         border: none;
         position: absolute;
         right: 6%;
         top: 32%;
-    }
-    header .my-picture figcaption {
+    } */
+
+    /* header .my-picture figcaption {
         font-size: 1.5rem;
         margin-top: 10px;
         background-color: white;
         display: inline-block;
         padding: 3px;
-    }
-    header.under {
-        /* background-image: url(./img/jibun3-pc-header4.jpg); */
+    } */
+
+    /* header.under {
+        background-image: url(./img/jibun3-pc-header4.jpg);
         background-position: top left;
-        /* background-repeat: no-repeat; */
+        background-repeat: no-repeat;
         background-size: cover;
-    }
-    header .maru-wrapper {
+    } */
+
+    /* header .maru-wrapper {
         text-align: left;
         margin-left: 15%;
-    }
-    header .maru1 {
-        /* background-color: #6097eb; */
+    } */
+
+    /* header .maru1 {
+        background-color: #6097eb;
         border: none;
-        /* color: white; */
+        color: white;
         width: 200px;
         height: 200px;
         border: 1px solid white;
         margin-left: 3%;
-    }
-    header .maru1 p {
+    } */
+
+    /* header .maru1 p {
         text-align: center;
         padding-top: 25%;
         font-size: 2rem;
-    }
+    } */
 
     /* anti-corona */
 
@@ -1138,7 +1145,7 @@ footer {
     }
     .offer-content dt {
         padding: 1%;
-        font-size: 1rem;
+        font-size: 2.5rem;
         font-weight: normal;
     }
     .offer-content dl {
@@ -1146,10 +1153,10 @@ footer {
         text-align: left;
         /* padding-left: 40%; */
     }
-    .offer-content dd .price {
+    /* .offer-content dd .price {
         font-weight: bold;
         font-size: 2.5rem;
-    }
+    } */
     .offer-content dl .pc {
         display: inline-block;
     }
@@ -1160,14 +1167,15 @@ footer {
         padding: 0;
         margin: 0;
         border-bottom: none;
+        text-align: right;
     }
     .offer-content dl {
         border:none;
     }
     .offer-content dd {
-        padding-left:0 ;
-        padding-bottom: 0;
-        width: 40%;
+        padding-left:10%;
+        width: 75%;
+        font-size: 2.25rem;
     }
     /* 空白調整2 本体 */
     .offer-content dl {
@@ -1179,9 +1187,17 @@ footer {
         border-bottom: 1px dotted grey;
     }
     .offer-content dt {
-        width: 10%;
+        width: 25%;
+        padding-left: 0%;
     }
-    .offer-content dd.arrow {
+    .offer-content .no-flex {
+        display: block;
+        width: 75%;
+        padding-left: 2%;
+    }
+
+
+    /* .offer-content dd.arrow {
         border-bottom:10px solid transparent;
         border-right:10px solid transparent;
         border-left:10px solid red;
@@ -1189,8 +1205,8 @@ footer {
         margin: 4px 15px 0 0;
         width: 10px;
         height: 10px;
-    }
-    .offer-content .price-info {
+    } */
+    /* .offer-content .price-info {
         flex-direction: row;
         width: 90%;
         align-items:baseline;
@@ -1203,7 +1219,7 @@ footer {
     }
     .offer-content .price-info dd:last-of-type {
         width: 60%;
-    }
+    } */
 
 
     /* self-introduction */
