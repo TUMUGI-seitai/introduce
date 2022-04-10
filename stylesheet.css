@@ -1145,7 +1145,7 @@ footer {
     }
     .offer-content dt {
         padding: 1%;
-        font-size: 2.5rem;
+        font-size: 2.125rem;
         font-weight: normal;
     }
     .offer-content dl {
@@ -1175,7 +1175,7 @@ footer {
     .offer-content dd {
         padding-left:10%;
         width: 75%;
-        font-size: 2.25rem;
+        font-size: 1.75rem;
     }
     /* 空白調整2 本体 */
     .offer-content dl {
