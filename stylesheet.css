@@ -69,6 +69,7 @@ header {
 }
 header.under {
     padding-top: 0;
+    margin-bottom: 100px;
 }
 
 /* フォントで紬を表示 */
@@ -90,7 +91,6 @@ header .title-name h1 span.name {
     margin-left: 15px; 
     font-weight: bold;
 }
-
 header .shop-name span{
     font-family: 'Yuji Syuku', serif;
 }
@@ -113,14 +113,12 @@ header .tel {
 header .tel-menu a {
     color: blue;
     text-decoration: underline;
-    /* display: block; */
 }
 header .tel span {
     color: black;
     font-size: 0.75rem;
     margin-left: 10px;
 }
-
 header h2 {
     margin: 30px 0;
 }
@@ -138,7 +136,6 @@ nav ul {
     justify-content: space-between;
     background-color: rgb(19, 71, 212);
     border-top: 1px solid white;
-    /* padding:6px 6px; */
     height: 50px;
     align-items: center;
     text-align: center;
@@ -167,36 +164,9 @@ nav li a:hover {
 }
 
 /* desc */
-header .desc {
-    /* height: 380px; */
-    position: relative;
-    margin-top: 5px;
-    margin-bottom: 100px;
-    text-align: center;
-}
-header .desc h2 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    background: rgba(255,255,255,0.1);
-    text-align: left;
-    width: 65%;
-    color: red;
-    letter-spacing: 3px;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-}
 
 header .mobile.header-img {
     width: 100%;
-}
-
-
-header .desc .head-desc {
-    font-size: 0.85rem;
-    font-weight: normal;
-    text-align: left;
-    margin-bottom: 20px;
-    width: 65%;
-    font-family: Georgia, Times, 'Times New Roman', serif;
 }
 header .my-picture {
     width: 35%;
@@ -229,21 +199,13 @@ header .maru1 p {
     margin-bottom: 60px;
     position: relative;
 }
-
 .anti-corona h2 {
-    /* border-bottom: 2px solid black; */
-    /* display: inline-block; */
-    /* padding-bottom: 3px; */
-
     margin-bottom: 30px;
     font-size: 1.4rem;
-    /* color: rgb(66, 62, 58); */
     color: white;
     background-image:linear-gradient(90deg,#238CCC, #C5E5EE);
-    /* background-image:linear-gradient(90deg,#C5E5EE, #238CCC); */
     padding: 3%;
     padding-left: 4%;
-    /* font-weight: bold; */
     border: 1px dotted rgb(238, 129, 40);
     width: 102vw;
     position: absolute;
@@ -294,21 +256,14 @@ header .maru1 p {
 }
 
 .paitient-comment h2 {
-    /* border-bottom: 2px solid black; */
-    /* display: inline-block; */
-    /* padding-bottom: 3px; */
-
     margin-bottom: 30px;
     font-size: 1.4rem;    
     margin-bottom: 30px;
     font-size: 1.4rem;
-    /* color: rgb(66, 62, 58); */
     color: white;
     background-image:linear-gradient(90deg,#238CCC, #C5E5EE);
-    /* background-image:linear-gradient(90deg,#C5E5EE, #238CCC); */
     padding: 3%;
     padding-left: 4%;
-    /* font-weight: bold; */
     border: 1px dotted rgb(238, 129, 40);
     width: 102vw;
     position: absolute;
@@ -371,7 +326,6 @@ header .maru1 p {
     padding-top: 10px;
     font-size: 1.4rem;    
     text-align: center;
-    /* font-family: Georgia, Times, 'Times New Roman', serif; */
 }
 .offer-content .price-img {
     width: 100%;
@@ -386,7 +340,6 @@ header .maru1 p {
 .offer-content p {
     font-size: 1rem;
     margin-bottom: 10px;
-    /* font-family: Georgia, Times, 'Times New Roman', serif; */
 }
 .offer-content p span {
     background-color: yellow;
@@ -408,10 +361,6 @@ header .maru1 p {
 .offer-content dd {
     margin-bottom: 5px;
 }
-/* .offer-content dd .off {
-    background-color: yellow;
-    color: blue;
-} */
 .offer-content dd .price {
     font-weight: bold;
     font-size: 1.75rem;
@@ -473,60 +422,25 @@ header .maru1 p {
         font-size: 0.5rem;
     }
 
-/* 空白調整1 */
-/* .offer-content dt {
-    background-image:linear-gradient(90deg,#b0f3ae, #e4f0e4);
-    padding: 2%;
-    border-bottom: 1px solid black;
-}
-.offer-content dl {
-    border: 1px solid #000;
-}
-.offer-content dd {
-    padding-left:2% ;
-    padding-bottom: 2%;
-}
-.offer-content dd.arrow {
-    width:20px;
-    height:20px;
-    border-bottom:15px solid rgba(1,1,1,0);
-    border-right:15px solid rgba(68, 235, 17, 0);
-    border-left:15px solid rgba(11, 83, 238, 0);
-    border-top:15px solid red;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0 0 -10px 18%; 
-} */
-
 /* ***************** */
 /* self-introduction */
 /* ***************** */
 
 .self-introduction {
-    margin-top: 120px;
+    margin-top: 100px;
     margin-bottom: 70px;
     position: relative;
 }
 .self-introduction .content {
     padding: 0 30px;
-    /* border: 1px solid #000; */
 }
 .self-intro-title {
-    /* margin-bottom: 30px; */
-    /* border-bottom: 2px solid black; */
-    /* display: inline-block; */
-    /* padding-bottom: 3px; */
-    /* font-size: 1.4rem;   */
-
     margin-bottom: 0px;
     font-size: 1.4rem;
-    /* color: rgb(66, 62, 58); */
     color: white;
     background-image:linear-gradient(90deg,#238CCC, #C5E5EE);
-    /* background-image:linear-gradient(90deg,#C5E5EE, #238CCC); */
     padding: 3%;
     padding-left: 4%;
-    /* font-weight: bold; */
     border: 1px dotted rgb(238, 129, 40);
     width: 102vw;
     position: absolute;
@@ -538,7 +452,6 @@ header .maru1 p {
     font-size: 1.175rem;
     margin-bottom: 30px;
     border-bottom: none;
-    /* background-color: #6097eb; */
     color: black;
     padding: 1% 2%;
     display: inline-block;
@@ -548,18 +461,15 @@ header .maru1 p {
 }
 .self-introduction p {
     line-height: 2;
-    /* margin-bottom: 30px; */
 }
 .self-introduction p span {
     font-size: 1.5rem;
-    /* background-color: rgba(161, 229, 147, 0.5); */
 }
 .self-introduction img {
     width: 70%;
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
-    /* border: 1px solid #000; */
 }
 
 /* ******************** */
@@ -576,33 +486,21 @@ header .maru1 p {
 }
 
 #initial-medical-flow h2 {
-    /* margin-bottom: 30px;
-    border-bottom: 2px solid black;
-    display: inline-block;
-    padding-bottom: 3px;
-    font-size: 1.4rem;  */
-
     margin-bottom: 30px;
     font-size: 1.4rem;
-    /* color: rgb(66, 62, 58); */
     color: white;
     background-image:linear-gradient(90deg,#238CCC, #C5E5EE);
-    /* background-image:linear-gradient(90deg,#C5E5EE, #238CCC); */
     padding: 3%;
     padding-left: 4%;
-    /* font-weight: bold; */
     border: 1px dotted rgb(238, 129, 40);
     width: 102vw;
     position: absolute;
     left: -5%;
     top: -0.5%;
-
 }
 #initial-medical-flow h3 {
     font-size: 1.125rem;
     margin-bottom: 15px;
-    /* background-color: rgba(105, 236, 101, 0.7); */
-    /* color: rgb(121, 112, 112); */
     padding: 5px;
     display: table;
     border-bottom: 1px solid black;
@@ -618,47 +516,34 @@ header .maru1 p {
 #initial-medical-flow .offer {
     margin-top: 150px;
 }
-
 #initial-medical-flow .imf-wrapper img.c-extend {
     height: 250px;
     object-fit: cover;
 }
 #initial-medical-flow .imf-wrapper img.c-shrink {
-    /* height: 320px; */
     height: 270px;
     object-fit: cover;
 }
 
-
-
 /* *********** */
 /* suitability */
 /* *********** */
+
 #suitability  {
     position: relative;
 }
 #suitability h2 {
-    /* margin-bottom: 30px;
-    border-bottom: 2px solid black;
-    display: inline-block;
-    padding-bottom: 3px;
-    font-size: 1.4rem;      */
-
     margin-bottom: 30px;
     font-size: 1.4rem;
-    /* color: rgb(66, 62, 58); */
     color: white;
     background-image:linear-gradient(90deg,#238CCC, #C5E5EE);
-    /* background-image:linear-gradient(90deg,#C5E5EE, #238CCC); */
     padding: 3%;
     padding-left: 4%;
-    /* font-weight: bold; */
     border: 1px dotted rgb(238, 129, 40);
     width: 102vw;
     position: absolute;
     left: -5%;
     top: 0%;
-
 }
 #suitability h3 {
     font-size: 1.125rem;
@@ -695,26 +580,18 @@ header .maru1 p {
 /* ****** */
 /* access */
 /* ****** */
+
 .access {
     position: relative;
 }
 
 .access h2 {
-    /* margin-bottom: 30px;
-    border-bottom: 2px solid black;
-    display: inline-block;
-    padding-bottom: 10px;
-    font-size: 1.4rem; */
-
     margin-bottom: 30px;
     font-size: 1.4rem;
-    /* color: rgb(66, 62, 58); */
     color: white;
     background-image:linear-gradient(90deg,#238CCC, #C5E5EE);
-    /* background-image:linear-gradient(90deg,#C5E5EE, #238CCC); */
     padding: 3%;
     padding-left: 4%;
-    /* font-weight: bold; */
     border: 1px dotted rgb(238, 129, 40);
     width: 102vw;
     position: absolute;
@@ -826,7 +703,6 @@ footer {
     margin-top: 12%;
 }
 
-
 /* ***** */
 /* media */
 /* ***** */
@@ -834,7 +710,6 @@ footer {
 @media (min-width: 701px){
 
     /* common */
-
     .wrapper {
         max-width: 1000px;
         padding: 0 1%;
@@ -877,20 +752,7 @@ footer {
     header .tel-menu .tel span {
         font-size: 1.25rem;
     }
-    header .tel-menu .okayasi.pc {
-        display: inline-block;
-        font-size: 1.25rem;
-        margin-top: 20px;
-        margin-left: 30px;
-        margin-right: 70px;
-    }
-    header .tel-menu .okayasi.pc span {
-        font-size: 2.125rem;
-        background-color: rgba(67, 235, 45,0.8);
-        color: rgb(243, 91, 21);
-        padding: 0 5px 0 5px;
-        font-family: 'Yuji Syuku', serif;
-    }
+
     header .tel-menu .tel.pc {
         display: inline-block;
         margin-left: 40px;
@@ -899,15 +761,11 @@ footer {
     /* navi */
 
     nav {
-        /* max-width: 1200px; */
         max-width: 100%;
-        /* margin-bottom: 80px; */
     }
     nav ul {
         height: 60px;
         padding:10px 20%;
-        /* border: 1px solid #000; */
-        /* background-color: rgb(234, 242, 243); */
         border-left: none;
         border-right: none;
 
@@ -915,9 +773,6 @@ footer {
     nav li {
         font-size: 1.25rem;
         font-weight: normal;
-        /* padding-left: 3%; */
-        /* color: black; */
-        /* border-left: 0px solid white; */
     }
     nav li:first-child {
         border-left: 1px solid white;
@@ -940,17 +795,14 @@ footer {
 
     header.under {
         margin-bottom: 0;
-        /* padding-bottom: 20px; */
         padding-top: 1px;
+        margin-bottom: 100px;
     }
     header .desc h2 {
         font-family: Georgia, Times, 'Times New Roman', serif;
-        /* font-size: 3.5rem; */
         font-size: 4.75rem;
         font-weight: bold;
-        /* width: 65%; */
         width: 100%;
-        /* margin-left: 12%; */
         text-align: center;
         margin-bottom: 50px;
     }
@@ -961,60 +813,6 @@ footer {
         width: 100%;
         object-fit: cover;
     }
-
-    /* header .desc .head-desc {
-        font-size: 2.125rem;
-        width: 65%;
-        font-family: Georgia, Times, 'Times New Roman', serif;
-        font-weight: 900;
-        margin-bottom: 50px;
-        padding-left: 5%;
-    } */
-
-    /* header .my-picture {
-        display:inline-block;
-        max-width: 240px;
-        border: none;
-        position: absolute;
-        right: 6%;
-        top: 32%;
-    } */
-
-    /* header .my-picture figcaption {
-        font-size: 1.5rem;
-        margin-top: 10px;
-        background-color: white;
-        display: inline-block;
-        padding: 3px;
-    } */
-
-    /* header.under {
-        background-image: url(./img/jibun3-pc-header4.jpg);
-        background-position: top left;
-        background-repeat: no-repeat;
-        background-size: cover;
-    } */
-
-    /* header .maru-wrapper {
-        text-align: left;
-        margin-left: 15%;
-    } */
-
-    /* header .maru1 {
-        background-color: #6097eb;
-        border: none;
-        color: white;
-        width: 200px;
-        height: 200px;
-        border: 1px solid white;
-        margin-left: 3%;
-    } */
-
-    /* header .maru1 p {
-        text-align: center;
-        padding-top: 25%;
-        font-size: 2rem;
-    } */
 
     /* anti-corona */
 
@@ -1028,7 +826,6 @@ footer {
         position: static;
         background-image: none;
         color: black;
-        /* font-family: Georgia, Times, 'Times New Roman', serif; */
         border: none;
         border-bottom: 1px solid black;
         padding: 0;
@@ -1102,15 +899,12 @@ footer {
         border-bottom: 1px dotted grey;
     }
 
-
     /* offer */
 
     .offer-content {
         border:none;
         margin-bottom: 90px;
         text-align: center;
-        /* padding-left:30%; */
-
         border: 1px solid #000;
     }
     .offer-content > h2 {
@@ -1151,12 +945,7 @@ footer {
     .offer-content dl {
         margin-bottom: 50px;
         text-align: left;
-        /* padding-left: 40%; */
     }
-    /* .offer-content dd .price {
-        font-weight: bold;
-        font-size: 2.5rem;
-    } */
     .offer-content dl .pc {
         display: inline-block;
     }
@@ -1177,6 +966,7 @@ footer {
         width: 75%;
         font-size: 1.75rem;
     }
+
     /* 空白調整2 本体 */
     .offer-content dl {
         display: flex;
@@ -1195,32 +985,6 @@ footer {
         width: 75%;
         padding-left: 2%;
     }
-
-
-    /* .offer-content dd.arrow {
-        border-bottom:10px solid transparent;
-        border-right:10px solid transparent;
-        border-left:10px solid red;
-        border-top:10px solid transparent;
-        margin: 4px 15px 0 0;
-        width: 10px;
-        height: 10px;
-    } */
-    /* .offer-content .price-info {
-        flex-direction: row;
-        width: 90%;
-        align-items:baseline;
-    }
-    .offer-content .tax {
-        font-size: 1rem;
-    }
-    .offer-content .price-info dd:first-of-type {
-        width: 32%;
-    }
-    .offer-content .price-info dd:last-of-type {
-        width: 60%;
-    } */
-
 
     /* self-introduction */
     
@@ -1243,7 +1007,6 @@ footer {
         padding: 0 2%;
         font-size: 1em;
         font-weight: 500;
-        /* font-family:sans-serif; */
     }
     .self-introduction h2 {
         font-size: 1.5rem;
@@ -1252,8 +1015,6 @@ footer {
         background-color: #6097eb;
         color: white;
         padding: 1% 2%;
-        /* border-left: 8px solid rgb(196, 189, 189); */
-        /* padding-left: 20px;       */
     }
     .self-introduction h2 span {
         font-size: 1.25rem;
@@ -1263,16 +1024,12 @@ footer {
         background-color:transparent;
     }
     .self-introduction img {
-        /* width: 30%; */
-        /* display: inline; */
-        /* margin: 0 auto; */
         margin-bottom: 30px;
     }
     .self-introduction p {
         font-size: 1.25rem;
         line-height: 1.7;
         margin-bottom: 30px;
-        /* display: inline; */
     }
     .self-introduction .self-img {
         float: left;
@@ -1317,10 +1074,6 @@ footer {
         width: 30%;
         border: none;
     }
-    /* #initial-medical-flow .imf-wrapper img.c-extend {
-        height: 280px;
-        object-fit: cover;
-    } */
     #initial-medical-flow .imf-wrapper img.c-shrink {
         height: 250px;
         object-fit: cover;
@@ -1408,7 +1161,6 @@ footer {
     .access .grid-display .pc {
         display: block;
     }
-
 
     /* footer */
     footer {
