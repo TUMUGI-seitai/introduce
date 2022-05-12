@@ -67,10 +67,6 @@ p {
 header {
     padding-top: 10px;
 }
-header.under {
-    padding-top: 0;
-    margin-bottom: 100px;
-}
 
 /* フォントで紬を表示 */
 header .title-name {
@@ -119,11 +115,9 @@ header .tel span {
     font-size: 0.75rem;
     margin-left: 10px;
 }
-header h2 {
-    margin: 30px 0;
-}
 
 /* navi */
+
 nav {
     position: sticky;
     z-index: 10;
@@ -163,32 +157,13 @@ nav li a:hover {
     color: black;
 }
 
-/* desc */
+.under {
+  padding-top: 0;
+  margin-bottom: 100px;
+}
 
-header .mobile.header-img {
+.under .mobile.header-img {
     width: 100%;
-}
-header .my-picture {
-    width: 35%;
-    object-fit: cover;
-    position: absolute;
-    top: 10%;
-    right: 0;
-}
-header .maru1 {
-    background-color: rgb(137, 230, 125);
-    display: inline-block;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    border: 1px solid #000;
-    text-align: left;
-    margin: 0 3px;
-}
-header .maru1 p {
-    text-align: center;
-    padding-top: 20%;
-    font-size: 1.175rem;
 }
 
 /* *********** */
@@ -704,7 +679,7 @@ footer {
 }
 
 /* ***** */
-/* media */
+/* media PC版 */
 /* ***** */
 
 @media (min-width: 701px){
@@ -791,23 +766,12 @@ footer {
         color: rgb(250, 254, 255);
     }
 
-    /* header desc */
-
-    header.under {
+    .under {
         margin-bottom: 0;
         padding-top: 1px;
         margin-bottom: 100px;
     }
-    header .desc h2 {
-        font-family: Georgia, Times, 'Times New Roman', serif;
-        font-size: 4.75rem;
-        font-weight: bold;
-        width: 100%;
-        text-align: center;
-        margin-bottom: 50px;
-    }
-
-    header .pc.header-img {
+    .under .pc.header-img {
         display: block;
         margin-top: 1%;
         width: 100%;
