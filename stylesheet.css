@@ -120,6 +120,7 @@ header .tel span {
 
 nav {
     position: sticky;
+    position: -webkit-sticky;
     z-index: 10;
     top:0;
     max-width: 700px;
